@@ -1,29 +1,186 @@
 <!DOCTYPE html>
 <html lang="si">
 <head>
-<meta charset="UTF-8">
-<title>Course</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BashaJP | Japanese Spoken Course</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/site.js"></script>
 </head>
 <body>
-<div class="container">
-<h1>Japanese Course</h1>
-<ul>
-<li><a href="lesson-01.html">Lesson 1</a></li>
-<li><a href="lesson-02.html">Lesson 2</a></li>
-<li><a href="lesson-03.html">Lesson 3</a></li>
-<li><a href="lesson-04.html">Lesson 4</a></li>
-<li><a href="lesson-05.html">Lesson 5</a></li>
-<li><a href="lesson-06.html">Lesson 6</a></li>
-<li><a href="lesson-07.html">Lesson 7</a></li>
-<li><a href="lesson-08.html">Lesson 8</a></li>
-<li><a href="lesson-09.html">Lesson 9</a></li>
-<li><a href="lesson-10.html">Lesson 10</a></li>
-<li><a href="lesson-11.html">Lesson 11</a></li>
-<li><a href="lesson-12.html">Lesson 12</a></li>
-<li><a href="lesson-13.html">Lesson 13</a></li>
-<li><a href="lesson-14.html">Lesson 14</a></li>
-</ul>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html"><span class="brand-badge">日</span> BashaJP</a>
+    <div class="nav-links">
+      <a href="#course">පාඨමාලාව</a>
+      <a href="#lessons">පාඩම්</a>
+      <a href="#github-pages">GitHub Pages</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="kicker">GitHub Pages Ready • Sinhala Explanations • Spoken Japanese</div>
+      <h1>ජපන් කථන පාඨමාලාව<br>BashaJP website edition</h1>
+      <p>මෙය GitHub Pages සඳහා සකස් කළ static website folder structure එකකි. HTML, CSS, සහ JavaScript පමණක් භාවිතා කරන නිසා repository එකකට upload කර පහසුවෙන් publish කළ හැක.</p>
+      <div class="hero-note">Completed lessons in this browser: <strong data-progress-count>0</strong></div>
+      <div class="actions">
+        <a class="btn btn-primary" href="lessons/lesson-01.html">Lesson 1 පටන් ගන්න</a>
+        <a class="btn btn-secondary" href="#lessons">සියලු පාඩම්</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h3>Included in this package</h3>
+      <ul>
+        <li>GitHub Pages ready folder structure</li>
+        <li><code>index.html</code> homepage</li>
+        <li><code>assets/css/styles.css</code> shared stylesheet</li>
+        <li><code>assets/js/site.js</code> simple progress tracking</li>
+        <li><code>lessons/</code> folder with all lesson pages</li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<section id="course">
+  <div class="container">
+    <div class="section-title">
+      <h2>මෙම version එකේ විශේෂත්වය</h2>
+      <p>GitHub repository එකකට upload කර, Settings → Pages තුළ root deploy කිරීම සඳහා පහසු ලෙස ගොනු සංවිධානය කර ඇත.</p>
+    </div>
+    <div class="top-grid">
+      <div class="road-card">
+        <h3>Course overview</h3>
+        <ul class="list-clean">
+          <li>N5 foundation lessons</li>
+          <li>N4 speaking development lessons</li>
+          <li>Detailed lesson pages in Sinhala</li>
+          <li>Dark premium interface</li>
+        </ul>
+      </div>
+      <div class="road-card repo-box">
+        <h3>Recommended repo structure</h3>
+        <p><code>/index.html</code></p>
+        <p><code>/assets/css/styles.css</code></p>
+        <p><code>/assets/js/site.js</code></p>
+        <p><code>/lessons/lesson-01.html ...</code></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="lessons">
+  <div class="container">
+    <div class="section-title">
+      <h2>පාඩම්</h2>
+      <p>පහත පාඩම් සියල්ල GitHub Pages මත සෘජුව වැඩ කරයි.</p>
+    </div>
+    <div class="lesson-grid">
+
+      <a class="lesson-link" href="lessons/lesson-01.html">
+        <div class="small">Lesson 01 <span data-lesson-file="lesson-01.html"></span></div>
+        <h3>පාඩම 01: හිරගනා (සම්පූර්ණ පාඩම)</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+      <a class="lesson-link" href="lessons/lesson-02.html">
+        <div class="small">Lesson 02 <span data-lesson-file="lesson-02.html"></span></div>
+        <h3>පාඩම 02: කටකනා (සම්පූර්ණ පාඩම)</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+      <a class="lesson-link" href="lessons/lesson-03.html">
+        <div class="small">Lesson 03 <span data-lesson-file="lesson-03.html"></span></div>
+        <h3>පාඩම 03: උච්චාරණ (Pronunciation)</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+      <a class="lesson-link" href="lessons/lesson-04.html">
+        <div class="small">Lesson 04 <span data-lesson-file="lesson-04.html"></span></div>
+        <h3>පාඩම 04: ජපන් වාක්‍ය ව්‍යුහය (Sentence Structure)</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+      <a class="lesson-link" href="lessons/lesson-05.html">
+        <div class="small">Lesson 05 <span data-lesson-file="lesson-05.html"></span></div>
+        <h3>පාඩම 05: මූලික වචන සහ ආචාර (Basic Expressions)</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+      <a class="lesson-link" href="lessons/lesson-06.html">
+        <div class="small">Lesson 06 <span data-lesson-file="lesson-06.html"></span></div>
+        <h3>පාඩම 06: තමන් හඳුන්වාදීම (Self Introduction)</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+      <a class="lesson-link" href="lessons/lesson-07.html">
+        <div class="small">Lesson 07 <span data-lesson-file="lesson-07.html"></span></div>
+        <h3>පාඩම 07: A は B です / か</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+      <a class="lesson-link" href="lessons/lesson-08.html">
+        <div class="small">Lesson 08 <span data-lesson-file="lesson-08.html"></span></div>
+        <h3>පාඩම 08: Particles (は / が / を / に / で)</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+      <a class="lesson-link" href="lessons/lesson-09.html">
+        <div class="small">Lesson 09 <span data-lesson-file="lesson-09.html"></span></div>
+        <h3>පාඩම 09: ක්‍රියාපද (ます / ません)</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+      <a class="lesson-link" href="lessons/lesson-10.html">
+        <div class="small">Lesson 10 <span data-lesson-file="lesson-10.html"></span></div>
+        <h3>පාඩම 10: දෛනික සංවාද (Daily Conversation)</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+      <a class="lesson-link" href="lessons/lesson-11.html">
+        <div class="small">Lesson 11 <span data-lesson-file="lesson-11.html"></span></div>
+        <h3>පාඩම 11: て Form (N4 ආරම්භය)</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+      <a class="lesson-link" href="lessons/lesson-12.html">
+        <div class="small">Lesson 12 <span data-lesson-file="lesson-12.html"></span></div>
+        <h3>පාඩම 12: Past + Adjectives</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+      <a class="lesson-link" href="lessons/lesson-13.html">
+        <div class="small">Lesson 13 <span data-lesson-file="lesson-13.html"></span></div>
+        <h3>පාඩම 13: Desire (たい) + Advanced Particles</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+      <a class="lesson-link" href="lessons/lesson-14.html">
+        <div class="small">Lesson 14 <span data-lesson-file="lesson-14.html"></span></div>
+        <h3>පාඩම 14: Advanced Grammar (ながら / つもり / ほうがいい)</h3>
+        <p>Detailed lesson page ready for GitHub Pages hosting.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="github-pages">
+  <div class="container">
+    <div class="section-title">
+      <h2>GitHub Pages publish tips</h2>
+      <p>Repository එකට මෙම folders upload කර, Pages source එක root branch වෙත යොදා publish කරන්න.</p>
+    </div>
+    <div class="feature-grid">
+      <div class="feature">
+        <h3>Step 1</h3>
+        <p>ZIP unzip කර repository එකකට upload කරන්න.</p>
+      </div>
+      <div class="feature">
+        <h3>Step 2</h3>
+        <p>GitHub Settings → Pages වෙත ගොස් source එක main branch / root ලෙස තෝරන්න.</p>
+      </div>
+      <div class="feature">
+        <h3>Step 3</h3>
+        <p>කිහිප මිනිත්තු තුළ public URL එකක් මත site එක live වේ.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="footer">
+  <div class="container">
+    BashaJP • GitHub Pages Ready Website
+    <div class="copyright">© 2026 Pramod (BashaJP). All rights reserved.</div>
+  </div>
 </div>
 </body>
 </html>
