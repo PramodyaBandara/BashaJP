@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const visibleCategoriesEl = document.getElementById("visibleCategories");
   const visibleWordsEl = document.getElementById("visibleWords");
 
-  if (!searchInput || categories.length === 0) {
-  return;
+  if (!searchInput || !categoryFilter || categories.length === 0) {
+    return;
   }
 
   function escapeRegExp(string) {
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function updateVocabulary() {
     const query = searchInput.value.trim().toLowerCase();
-    const selectedCategory = "all";
+    const selectedCategory = categoryFilter.value;
     let visibleCategories = 0;
     let visibleWords = 0;
 
@@ -110,6 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   searchInput.addEventListener("input", updateVocabulary);
+  categoryFilter.addEventListener("change", updateVocabulary);
 
   updateVocabulary();
 });
