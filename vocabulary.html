@@ -24,7 +24,7 @@
 <div class="tag-row">
 <span class="tag">Advanced Vocabulary</span>
 <span class="tag">සිංහල තේරුම් සමඟ</span>
-<span class="tag">Easy Structure</span>
+<span class="tag">Searchable Page</span>
 </div>
 </div>
 </section>
@@ -48,11 +48,70 @@
 සිංහලෙන් සරලව පැහැදිලි කළ හැකි වචන සඳහා සිංහල අර්ථය ලබා දී ඇත.
 සිංහලෙන් සෘජුව පැහැදිලි කිරීම අමාරු තැන්වල English meaning භාවිතා කර ඇත.
 </p>
+
+<div class="study-tip">
+ශිඝ්‍රයෙන් වචන සොයන්න නම් search box එක භාවිතා කරන්න. උදාහරණයක් ලෙස
+<strong>たべます</strong>, <strong>tabemasu</strong>, <strong>කනවා</strong>,
+<strong>food</strong> වගේ ඕනෑම ආකාරයකින් සොයන්න පුළුවන්.
+</div>
+
+<div class="quick-links">
+<a href="#vocab-1">භාෂාව</a>
+<a href="#vocab-2">ආචාර</a>
+<a href="#vocab-7">ආහාර</a>
+<a href="#vocab-9">ක්‍රියාපද</a>
+<a href="#vocab-13">විශේෂණ</a>
+<a href="#vocab-20">ගමනාගමනය</a>
+<a href="#vocab-22">රැකියාව</a>
+</div>
 </div>
 
 <div class="lesson-box">
+<h2>ශබ්දකෝෂ සෙවීම</h2>
+
+<div class="vocab-tools">
+<input type="text" id="vocabSearch" class="vocab-search" placeholder="වචනයක් සොයන්න... (Japanese / Romaji / Sinhala)">
+<select id="categoryFilter" class="vocab-filter">
+<option value="all">සියලුම කාණ්ඩ</option>
+<option value="භාෂාව">භාෂාව, අක්ෂර සහ ඉගෙනීම</option>
+<option value="ආචාර">ආචාර සහ දෛනික ප්‍රකාශ</option>
+<option value="පුද්ගලයන්">පුද්ගලයන් සහ පවුල</option>
+<option value="රටවල්">රටවල් සහ භාෂා</option>
+<option value="පාසල">පාසල සහ ඉගෙනුම් උපකරණ</option>
+<option value="නිවස">නිවස සහ භාණ්ඩ</option>
+<option value="ආහාර">ආහාර සහ බීම</option>
+<option value="ස්වභාවය">සතුන් සහ ස්වභාවය</option>
+<option value="ක්‍රියාපද">මූලික ක්‍රියාපද</option>
+<option value="て-form">て Form</option>
+<option value="කාලය">කාලය සහ දින</option>
+<option value="විශේෂණ">විශේෂණ</option>
+<option value="හැඟීම්">හැඟීම් සහ අවශ්‍යතා</option>
+<option value="particles">Particles</option>
+<option value="ප්‍රශ්න">ප්‍රශ්න වචන</option>
+<option value="සංඛ්‍යා">සංඛ්‍යා</option>
+<option value="වර්ණ">වර්ණ සහ හැඩ</option>
+<option value="සෞඛ්‍යය">ශරීර කොටස් සහ සෞඛ්‍යය</option>
+<option value="ගමනාගමනය">ගමනාගමනය සහ නගරය</option>
+<option value="සාප්පු">සාප්පු සහ මුදල්</option>
+<option value="රැකියාව">රැකියාව සහ කාර්යාලය</option>
+</select>
+</div>
+
+<div class="vocab-stats">
+<div class="vocab-stat">මුළු කාණ්ඩ: <span id="totalCategories">0</span></div>
+<div class="vocab-stat">පෙනෙන කාණ්ඩ: <span id="visibleCategories">0</span></div>
+<div class="vocab-stat">පෙනෙන වචන: <span id="visibleWords">0</span></div>
+</div>
+
+<div id="noResults" class="no-results">
+ඔබ සෙවූ වචනයට ගැලපෙන ප්‍රතිඵලයක් හමු වුණේ නැහැ. වෙනත් Japanese word, Romaji, හෝ Sinhala meaning එකක් භාවිතා කර බලන්න.
+</div>
+</div>
+
+<div class="lesson-box vocab-category" id="vocab-1" data-category="භාෂාව">
 <h2>1. භාෂාව, අක්ෂර සහ ඉගෙනීම</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -81,9 +140,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-2" data-category="ආචාර">
 <h2>2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -122,9 +182,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-3" data-category="පුද්ගලයන්">
 <h2>3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -165,9 +226,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-4" data-category="රටවල්">
 <h2>4. රටවල්, භාෂා සහ ජාතිකත්වය</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -193,9 +255,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-5" data-category="පාසල">
 <h2>5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -220,9 +283,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-6" data-category="නිවස">
 <h2>6. නිවස, කාමරය සහ දෛනික භාණ්ඩ</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -251,9 +315,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-7" data-category="ආහාර">
 <h2>7. ආහාර සහ බීම</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -291,9 +356,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-8" data-category="ස්වභාවය">
 <h2>8. සතුන්, ස්වභාවය සහ ලෝකය</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -321,9 +387,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-9" data-category="ක්‍රියාපද">
 <h2>9. මූලික ක්‍රියාපද</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -341,7 +408,7 @@
 <tr><td>べんきょうします</td><td>benkyou shimasu</td><td>ඉගෙන ගන්නවා</td></tr>
 <tr><td>よみます</td><td>yomimasu</td><td>කියවනවා</td></tr>
 <tr><td>きます</td><td>kimasu</td><td>එනවා</td></tr>
-<tr><td>かきます</td><td>kakimasu</td><td>ලිියනවා</td></tr>
+<tr><td>かきます</td><td>kakimasu</td><td>ලියනවා</td></tr>
 <tr><td>はなします</td><td>hanashimasu</td><td>කතා කරනවා</td></tr>
 <tr><td>ききます</td><td>kikimasu</td><td>අහනවා</td></tr>
 <tr><td>ねます</td><td>nemasu</td><td>නිදා ගන්නවා</td></tr>
@@ -365,9 +432,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-10" data-category="て-form">
 <h2>10. て Form සහ ඉල්ලීම්</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -393,9 +461,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-11" data-category="කාලය">
 <h2>11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -434,9 +503,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-12" data-category="කාලය">
 <h2>12. දින, සතිය සහ මාස</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -464,9 +534,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-13" data-category="විශේෂණ">
 <h2>13. විශේෂණ සහ විස්තර කරන වචන</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -510,9 +581,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-14" data-category="හැඟීම්">
 <h2>14. හැඟීම්, අදහස් සහ අවශ්‍යතා</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -543,9 +615,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-15" data-category="particles">
 <h2>15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -569,9 +642,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-16" data-category="ප්‍රශ්න">
 <h2>16. ප්‍රයෝජනවත් ප්‍රශ්න වචන</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -600,9 +674,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-17" data-category="සංඛ්‍යා">
 <h2>17. සංඛ්‍යා</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -624,9 +699,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-18" data-category="වර්ණ">
 <h2>18. වර්ණ සහ හැඩ</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -650,9 +726,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-19" data-category="සෞඛ්‍යය">
 <h2>19. ශරීර කොටස් සහ සෞඛ්‍යය</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -679,9 +756,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-20" data-category="ගමනාගමනය">
 <h2>20. ගමනාගමනය සහ නගරය</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -711,9 +789,10 @@
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-21" data-category="සාප්පු">
 <h2>21. සාප්පු සවාරි සහ මුදල්</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -734,13 +813,14 @@
 <tr><td>ふく</td><td>fuku</td><td>ඇඳුම්</td></tr>
 <tr><td>くつ</td><td>kutsu</td><td>සපත්තු</td></tr>
 <tr><td>かさ</td><td>kasa</td><td>කුඩය</td></tr>
-<tr><td>ぼうし</td><td>boushi</td><td>टोपी / टोपी</td></tr>
+<tr><td>ぼうし</td><td>boushi</td><td>තොප්පිය</td></tr>
 </table>
 </div>
 
-<div class="lesson-box">
+<div class="lesson-box vocab-category" id="vocab-22" data-category="රැකියාව">
 <h2>22. රැකියාව සහ කාර්යාලය</h2>
-<table class="table">
+<span class="vocab-count"></span>
+<table class="table vocab-table">
 <tr>
 <th>ජපන් වචනය</th>
 <th>රෝමාජි</th>
@@ -789,7 +869,7 @@
 
 <div class="footer">
 <div class="container">
-Vocabulary • වචන එකතුව
+Vocabulary • ජපන් වචන එකතුව
 <div class="copyright">© 2026 Pramod (BashaJP). All rights reserved.</div>
 </div>
 </div>

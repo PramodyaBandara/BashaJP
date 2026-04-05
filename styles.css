@@ -430,6 +430,156 @@ section{
   font-weight:600;
 }
 
+/* ================= VOCABULARY TOOLS ================= */
+
+.vocab-tools{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  gap:16px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.vocab-search,
+.vocab-filter{
+  width:100%;
+  padding:14px 16px;
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:16px;
+  font-size:16px;
+  outline:none;
+  color:var(--text);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));
+  transition:
+    border-color .25s ease,
+    box-shadow .25s ease,
+    transform .25s ease,
+    background .25s ease;
+  box-sizing:border-box;
+}
+
+.vocab-search::placeholder{
+  color:#b8c2e3;
+}
+
+.vocab-search:focus,
+.vocab-filter:focus{
+  border-color:rgba(139,92,246,.75);
+  box-shadow:0 0 0 4px rgba(139,92,246,.14);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.04));
+}
+
+.vocab-search:hover,
+.vocab-filter:hover{
+  transform:translateY(-1px);
+}
+
+.vocab-filter{
+  appearance:none;
+  cursor:pointer;
+}
+
+.vocab-stats{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-bottom:20px;
+}
+
+.vocab-stat{
+  background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.025));
+  border:1px solid var(--line);
+  padding:10px 14px;
+  border-radius:999px;
+  font-size:14px;
+  font-weight:700;
+  color:#e8edff;
+  box-shadow:0 10px 24px rgba(0,0,0,.16);
+}
+
+.vocab-category{
+  scroll-margin-top:110px;
+}
+
+.vocab-category.hidden{
+  display:none;
+}
+
+.vocab-count{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:4px;
+  font-size:13px;
+  font-weight:700;
+  opacity:.85;
+  color:#d6defc;
+  padding:6px 10px;
+  border-radius:999px;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.08);
+}
+
+.highlight-hit{
+  background:linear-gradient(135deg, rgba(245,158,11,.95), rgba(236,72,153,.88));
+  color:#ffffff;
+  padding:2px 5px;
+  border-radius:6px;
+  box-shadow:0 4px 14px rgba(236,72,153,.2);
+}
+
+.no-results{
+  display:none;
+  padding:18px;
+  border:1px dashed rgba(255,255,255,.18);
+  border-radius:16px;
+  background:linear-gradient(180deg, rgba(236,72,153,.08), rgba(139,92,246,.08));
+  font-size:15px;
+  color:#f3e8ff;
+}
+
+.study-tip{
+  margin-top:14px;
+  padding:14px 16px;
+  border-radius:16px;
+  background:linear-gradient(180deg, rgba(139,92,246,.12), rgba(236,72,153,.08));
+  border:1px solid rgba(255,255,255,.09);
+  font-size:14px;
+  line-height:1.7;
+  color:#e9edff;
+}
+
+.quick-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:18px;
+}
+
+.quick-links a{
+  text-decoration:none;
+  padding:9px 13px;
+  border-radius:999px;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.08);
+  font-size:14px;
+  color:#dbe3ff;
+  transition:
+    transform .2s ease,
+    border-color .2s ease,
+    background .2s ease,
+    box-shadow .2s ease;
+}
+
+.quick-links a:hover{
+  transform:translateY(-2px);
+  border-color:rgba(139,92,246,.55);
+  background:rgba(255,255,255,.08);
+  box-shadow:0 10px 22px rgba(0,0,0,.22);
+}
+
 /* ================= LISTS ================= */
 
 ul,
@@ -454,7 +604,8 @@ li{
 /* ================= FORMS ================= */
 
 input,
-textarea{
+textarea,
+select{
   width:100%;
   padding:10px 12px;
   border-radius:10px;
@@ -471,7 +622,8 @@ textarea::placeholder{
 }
 
 input:focus,
-textarea:focus{
+textarea:focus,
+select:focus{
   outline:none;
   border-color:rgba(139,92,246,.8);
   box-shadow:0 0 0 4px rgba(139,92,246,.12);
@@ -557,6 +709,18 @@ label{
   }
 }
 
+@keyframes glowPulse{
+  0%{
+    box-shadow:0 0 0 rgba(139,92,246,0);
+  }
+  50%{
+    box-shadow:0 0 22px rgba(139,92,246,.16);
+  }
+  100%{
+    box-shadow:0 0 0 rgba(139,92,246,0);
+  }
+}
+
 .hero,
 .page-hero{
   animation:fadeIn .7s ease;
@@ -577,6 +741,18 @@ label{
 
 .brand-flag{
   animation:floatSoft 3.4s ease-in-out infinite;
+}
+
+.vocab-search,
+.vocab-filter,
+.vocab-stat,
+.quick-links a{
+  animation:fadeUp .65s ease;
+}
+
+.vocab-search:focus,
+.vocab-filter:focus{
+  animation:glowPulse 1.6s ease infinite;
 }
 
 /* reveal classes used by script.js */
@@ -616,7 +792,8 @@ label{
   .hero-grid,
   .stats,
   .lesson-grid,
-  .two-col{
+  .two-col,
+  .vocab-tools{
     grid-template-columns:1fr;
   }
 
@@ -655,6 +832,15 @@ label{
   .table td{
     padding:10px 12px;
     font-size:.95rem;
+  }
+
+  .vocab-stats{
+    flex-direction:column;
+  }
+
+  .quick-links a{
+    width:100%;
+    text-align:center;
   }
 }
 
