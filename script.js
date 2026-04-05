@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const elements = document.querySelectorAll(".lesson-box, .lesson-link, .stat, .vocab-stat, .quick-links a");
+  const elements = document.querySelectorAll(".lesson-box, .lesson-link, .stat, .quick-links a");
 
   elements.forEach((el) => {
     el.classList.add("reveal");
@@ -22,9 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("vocabSearch");
   const categories = Array.from(document.querySelectorAll(".vocab-category"));
   const noResults = document.getElementById("noResults");
-  const totalCategoriesEl = document.getElementById("totalCategories");
-  const visibleCategoriesEl = document.getElementById("visibleCategories");
-  const visibleWordsEl = document.getElementById("visibleWords");
 
   if (!searchInput || categories.length === 0) {
     return;
@@ -62,7 +59,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function updateVocabulary() {
     const query = searchInput.value.trim().toLowerCase();
-    let visibleCategories = 0;
     let visibleWords = 0;
 
     categories.forEach((categoryBox) => {
@@ -93,14 +89,10 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       if (shouldShowCategory) {
-        visibleCategories++;
         visibleWords += categoryVisibleRows;
       }
     });
 
-    totalCategoriesEl.textContent = categories.length;
-    visibleCategoriesEl.textContent = visibleCategories;
-    visibleWordsEl.textContent = visibleWords;
     noResults.style.display = visibleWords === 0 ? "block" : "none";
   }
 
