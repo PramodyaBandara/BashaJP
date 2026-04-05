@@ -1,68 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const vocabulary = [
-    { japanese: "たべます", meaning: "කනවා" },
-    { japanese: "のみます", meaning: "බොනවා" },
-    { japanese: "いきます", meaning: "යනවා" },
-    { japanese: "みます", meaning: "බලනවා" },
-    { japanese: "おきます", meaning: "නැගිටිනවා" },
-    { japanese: "よみます", meaning: "කියවනවා" },
-    { japanese: "きます", meaning: "එනවා" },
-    { japanese: "かきます", meaning: "ලියනවා" },
-    { japanese: "はなします", meaning: "කතා කරනවා" },
-    { japanese: "ききます", meaning: "අහනවා" },
-    { japanese: "ねます", meaning: "නිදා ගන්නවා" },
-    { japanese: "あいます", meaning: "හමුවෙනවා" },
-    { japanese: "かえります", meaning: "ආපසු යනවා" },
-    { japanese: "はたらきます", meaning: "වැඩ කරනවා" },
-    { japanese: "やすみます", meaning: "විවේක ගන්නවා" },
-    { japanese: "つかいます", meaning: "භාවිතා කරනවා" },
-    { japanese: "かいます", meaning: "මිලදී ගන්නවා" },
-    { japanese: "うります", meaning: "විකුණනවා" },
-    { japanese: "まちます", meaning: "බලා සිටිනවා" },
-    { japanese: "つくります", meaning: "සාදනවා" },
-    { japanese: "おしえます", meaning: "උගන්වනවා / කියාදෙනවා" },
-    { japanese: "おぼえます", meaning: "මතක තබා ගන්නවා" },
-    { japanese: "わすれます", meaning: "අමතක වෙනවා" },
-    { japanese: "すみます", meaning: "පදිංචි වෙනවා" },
-    { japanese: "みず", meaning: "වතුර" },
-    { japanese: "ごはん", meaning: "බත් / කෑම" },
-    { japanese: "パン", meaning: "පාන්" },
-    { japanese: "コーヒー", meaning: "කෝපි" },
-    { japanese: "おちゃ", meaning: "තේ" },
-    { japanese: "たまご", meaning: "බිත්තර" },
-    { japanese: "にく", meaning: "මස්" },
-    { japanese: "やさい", meaning: "එළවළු" },
-    { japanese: "くだもの", meaning: "පලතුරු" },
-    { japanese: "りんご", meaning: "ඇපල්" },
-    { japanese: "バナナ", meaning: "කෙසෙල්" },
-    { japanese: "ねこ", meaning: "පූසා" },
-    { japanese: "いぬ", meaning: "බල්ලා" },
-    { japanese: "とり", meaning: "කුරුල්ලා" },
-    { japanese: "やま", meaning: "කන්ද" },
-    { japanese: "はな", meaning: "මල" },
-    { japanese: "き", meaning: "ගස" },
-    { japanese: "かわ", meaning: "නදිය" },
-    { japanese: "うみ", meaning: "මුහුද" },
-    { japanese: "そら", meaning: "අහස" },
-    { japanese: "つき", meaning: "සඳ" },
-    { japanese: "たいよう", meaning: "හිරු" },
-    { japanese: "ほし", meaning: "තාරකාව" },
-    { japanese: "ゆき", meaning: "හිම" },
-    { japanese: "あめ", meaning: "වැසි" },
-    { japanese: "てんき", meaning: "කාලගුණය" },
-    { japanese: "おはようございます", meaning: "සුභ උදෑසන" },
-    { japanese: "こんにちは", meaning: "සුභ දවසක් / ආයුබෝවන්" },
-    { japanese: "こんばんは", meaning: "සුභ සැන්දෑවක්" },
-    { japanese: "ありがとうございます", meaning: "බොහෝම ස්තූතියි" },
-    { japanese: "すみません", meaning: "සමාවෙන්න / excuse me" },
-    { japanese: "はい", meaning: "ඔව්" },
-    { japanese: "いいえ", meaning: "නැහැ" },
-    { japanese: "わかりました", meaning: "තේරුණා / හරි" },
-    { japanese: "おやすみなさい", meaning: "සුභ රාත්‍රියක්" },
-    { japanese: "さようなら", meaning: "සමුගන්නම්" }
-  ];
+  if (!Array.isArray(window.vocabulary) || window.vocabulary.length === 0) {
+    console.error("vocab-data.js is missing or vocabulary is empty.");
+    return;
+  }
 
-  const totalQuizQuestions = 10;
+  const allVocabulary = window.vocabulary
+    .filter((item) => item && item.japanese && item.meaning)
+    .map((item) => ({
+      japanese: String(item.japanese).trim(),
+      romaji: item.romaji ? String(item.romaji).trim() : "",
+      meaning: String(item.meaning).trim(),
+      category: item.category ? String(item.category).trim() : "",
+      section: item.section ? String(item.section).trim() : "",
+      sectionId: item.sectionId ? String(item.sectionId).trim() : ""
+    }));
+
+  const maxQuizQuestions = 10;
 
   const startQuizBtn = document.getElementById("startQuizBtn");
   const nextQuestionBtn = document.getElementById("nextQuestionBtn");
@@ -72,10 +25,15 @@ document.addEventListener("DOMContentLoaded", function () {
   const quizBox = document.getElementById("quizBox");
   const resultBox = document.getElementById("resultBox");
 
+  const categorySelect = document.getElementById("categorySelect");
+  const quizInfoBox = document.getElementById("quizInfoBox");
+  const activeCategoryTag = document.getElementById("activeCategoryTag");
+
   const questionNumberEl = document.getElementById("questionNumber");
   const totalQuestionsEl = document.getElementById("totalQuestions");
   const scoreEl = document.getElementById("score");
   const questionTextEl = document.getElementById("questionText");
+  const questionRomajiEl = document.getElementById("questionRomaji");
   const answerButtonsEl = document.getElementById("answerButtons");
   const quizFeedbackEl = document.getElementById("quizFeedback");
   const resultTextEl = document.getElementById("resultText");
@@ -84,8 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentQuestionIndex = 0;
   let score = 0;
   let answered = false;
-
-  totalQuestionsEl.textContent = totalQuizQuestions;
+  let currentQuizPool = [];
 
   function shuffleArray(array) {
     const copied = [...array];
@@ -96,27 +53,111 @@ document.addEventListener("DOMContentLoaded", function () {
     return copied;
   }
 
-  function getRandomQuestions() {
-    return shuffleArray(vocabulary).slice(0, totalQuizQuestions);
+  function getUniqueCategories() {
+    return [...new Set(
+      allVocabulary
+        .map((item) => item.category)
+        .filter((category) => category !== "")
+    )];
+  }
+
+  function populateCategoryOptions() {
+    const categories = getUniqueCategories();
+
+    categories.forEach((category) => {
+      const option = document.createElement("option");
+      option.value = category;
+      option.textContent = category;
+      categorySelect.appendChild(option);
+    });
+  }
+
+  function getSelectedCategoryLabel() {
+    return categorySelect.value === "all" ? "All Categories" : categorySelect.value;
+  }
+
+  function getFilteredVocabulary() {
+    const selected = categorySelect.value;
+
+    if (selected === "all") {
+      return allVocabulary;
+    }
+
+    return allVocabulary.filter((item) => item.category === selected);
+  }
+
+  function updateQuizInfo() {
+    const filtered = getFilteredVocabulary();
+    const selectedLabel = getSelectedCategoryLabel();
+    const total = Math.min(maxQuizQuestions, filtered.length);
+
+    if (filtered.length === 0) {
+      quizInfoBox.textContent = selectedLabel + " සඳහා වචන හමු වුණේ නැහැ.";
+      return;
+    }
+
+    quizInfoBox.textContent =
+      selectedLabel +
+      " සඳහා quiz එකෙන් ප්‍රශ්න " +
+      total +
+      " ක් ලැබේ. සම්පූර්ණ වචන ගණන: " +
+      filtered.length;
+  }
+
+  function getRandomQuestions(pool) {
+    return shuffleArray(pool).slice(0, Math.min(maxQuizQuestions, pool.length));
   }
 
   function getAnswerOptions(correctMeaning) {
-    const wrongOptions = shuffleArray(
-      vocabulary
+    const poolMeanings = [...new Set(
+      currentQuizPool
         .map((item) => item.meaning)
         .filter((meaning) => meaning !== correctMeaning)
-    ).slice(0, 3);
+    )];
+
+    let wrongOptions = shuffleArray(poolMeanings).slice(0, 3);
+
+    if (wrongOptions.length < 3) {
+      const fallbackMeanings = [...new Set(
+        allVocabulary
+          .map((item) => item.meaning)
+          .filter((meaning) => meaning !== correctMeaning && !wrongOptions.includes(meaning))
+      )];
+
+      wrongOptions = [...wrongOptions, ...shuffleArray(fallbackMeanings).slice(0, 3 - wrongOptions.length)];
+    }
 
     return shuffleArray([correctMeaning, ...wrongOptions]);
   }
 
+  function resetQuestionUI() {
+    answered = false;
+    nextQuestionBtn.classList.add("hidden");
+    quizFeedbackEl.classList.add("hidden");
+    quizFeedbackEl.textContent = "";
+    answerButtonsEl.innerHTML = "";
+  }
+
   function startQuiz() {
-    quizQuestions = getRandomQuestions();
+    currentQuizPool = getFilteredVocabulary();
+
+    if (currentQuizPool.length === 0) {
+      quizStartBox.classList.remove("hidden");
+      quizBox.classList.add("hidden");
+      resultBox.classList.add("hidden");
+      quizInfoBox.textContent = getSelectedCategoryLabel() + " සඳහා වචන හමු වුණේ නැහැ.";
+      return;
+    }
+
+    quizQuestions = getRandomQuestions(currentQuizPool);
     currentQuestionIndex = 0;
     score = 0;
     answered = false;
 
     scoreEl.textContent = score;
+    totalQuestionsEl.textContent = quizQuestions.length;
+    activeCategoryTag.textContent = getSelectedCategoryLabel();
+
     quizStartBox.classList.add("hidden");
     resultBox.classList.add("hidden");
     quizBox.classList.remove("hidden");
@@ -125,11 +166,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function showQuestion() {
-    answered = false;
-    nextQuestionBtn.classList.add("hidden");
-    quizFeedbackEl.classList.add("hidden");
-    quizFeedbackEl.textContent = "";
-    answerButtonsEl.innerHTML = "";
+    resetQuestionUI();
 
     const currentQuestion = quizQuestions[currentQuestionIndex];
     const options = getAnswerOptions(currentQuestion.meaning);
@@ -137,10 +174,12 @@ document.addEventListener("DOMContentLoaded", function () {
     questionNumberEl.textContent = currentQuestionIndex + 1;
     scoreEl.textContent = score;
     questionTextEl.textContent = currentQuestion.japanese;
+    questionRomajiEl.textContent = currentQuestion.romaji || "";
 
     options.forEach((option) => {
       const button = document.createElement("button");
       button.className = "btn btn-secondary quiz-option-btn";
+      button.type = "button";
       button.textContent = option;
 
       button.addEventListener("click", function () {
@@ -148,8 +187,8 @@ document.addEventListener("DOMContentLoaded", function () {
         answered = true;
 
         const isCorrect = option === currentQuestion.meaning;
-
         const allButtons = answerButtonsEl.querySelectorAll("button");
+
         allButtons.forEach((btn) => {
           btn.disabled = true;
 
@@ -162,9 +201,15 @@ document.addEventListener("DOMContentLoaded", function () {
         if (isCorrect) {
           score++;
           scoreEl.textContent = score;
-          quizFeedbackEl.textContent = "හරි! නිවැරදි පිළිතුර තෝරාගෙන ඇත.";
+          quizFeedbackEl.textContent =
+            "හරි! නිවැරදි පිළිතුර තෝරාගෙන ඇත. Romaji: " +
+            (currentQuestion.romaji || "-");
         } else {
-          quizFeedbackEl.textContent = "වැරදියි. නිවැරදි පිළිතුර: " + currentQuestion.meaning;
+          quizFeedbackEl.textContent =
+            "වැරදියි. නිවැරදි පිළිතුර: " +
+            currentQuestion.meaning +
+            " | Romaji: " +
+            (currentQuestion.romaji || "-");
         }
 
         quizFeedbackEl.classList.remove("hidden");
@@ -179,16 +224,46 @@ document.addEventListener("DOMContentLoaded", function () {
     quizBox.classList.add("hidden");
     resultBox.classList.remove("hidden");
 
+    const total = quizQuestions.length;
+    const selectedLabel = getSelectedCategoryLabel();
     let message = "";
 
-    if (score === totalQuizQuestions) {
-      message = "විශිෂ්ටයි! ඔබ ලකුණු " + score + " / " + totalQuizQuestions + " ලබාගෙන ඇත.";
-    } else if (score >= 7) {
-      message = "හොඳයි! ඔබ ලකුණු " + score + " / " + totalQuizQuestions + " ලබාගෙන ඇත.";
-    } else if (score >= 4) {
-      message = "හොඳ ආරම්භයක්! ඔබ ලකුණු " + score + " / " + totalQuizQuestions + " ලබාගෙන ඇත. නැවත උත්සාහ කරන්න.";
+    if (score === total) {
+      message =
+        "විශිෂ්ටයි! " +
+        selectedLabel +
+        " සඳහා ඔබ ලකුණු " +
+        score +
+        " / " +
+        total +
+        " ලබාගෙන ඇත.";
+    } else if (score >= Math.ceil(total * 0.7)) {
+      message =
+        "හොඳයි! " +
+        selectedLabel +
+        " සඳහා ඔබ ලකුණු " +
+        score +
+        " / " +
+        total +
+        " ලබාගෙන ඇත.";
+    } else if (score >= Math.ceil(total * 0.4)) {
+      message =
+        "හොඳ ආරම්භයක්! " +
+        selectedLabel +
+        " සඳහා ඔබ ලකුණු " +
+        score +
+        " / " +
+        total +
+        " ලබාගෙන ඇත. නැවත උත්සාහ කරන්න.";
     } else {
-      message = "තව පුහුණු වන්න. ඔබ ලකුණු " + score + " / " + totalQuizQuestions + " ලබාගෙන ඇත.";
+      message =
+        "තව පුහුණු වන්න. " +
+        selectedLabel +
+        " සඳහා ඔබ ලකුණු " +
+        score +
+        " / " +
+        total +
+        " ලබාගෙන ඇත.";
     }
 
     resultTextEl.textContent = message;
@@ -197,7 +272,7 @@ document.addEventListener("DOMContentLoaded", function () {
   nextQuestionBtn.addEventListener("click", function () {
     currentQuestionIndex++;
 
-    if (currentQuestionIndex < totalQuizQuestions) {
+    if (currentQuestionIndex < quizQuestions.length) {
       showQuestion();
     } else {
       showResults();
@@ -206,4 +281,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   startQuizBtn.addEventListener("click", startQuiz);
   restartQuizBtn.addEventListener("click", startQuiz);
+  categorySelect.addEventListener("change", updateQuizInfo);
+
+  populateCategoryOptions();
+  updateQuizInfo();
 });

@@ -1,0 +1,3801 @@
+// Auto-generated from vocabulary.html
+// Total words: 474
+
+const vocabulary = [
+  {
+    "japanese": "ひらがな",
+    "romaji": "hiragana",
+    "meaning": "හිරගනා",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "カタカナ",
+    "romaji": "katakana",
+    "meaning": "කතකනා",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "にほんご",
+    "romaji": "nihongo",
+    "meaning": "ජපන් භාෂාව",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "えいご",
+    "romaji": "eigo",
+    "meaning": "ඉංග්‍රීසි භාෂාව",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "ことば",
+    "romaji": "kotoba",
+    "meaning": "වචනය / භාෂා වචන",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "ぶん",
+    "romaji": "bun",
+    "meaning": "වාක්‍යය",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "れんしゅう",
+    "romaji": "renshuu",
+    "meaning": "පුහුණුව",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "べんきょう",
+    "romaji": "benkyou",
+    "meaning": "අධ්‍යයනය / ඉගෙනීම",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "もじ",
+    "romaji": "moji",
+    "meaning": "අකුර",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "たんご",
+    "romaji": "tango",
+    "meaning": "වචනය",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "いみ",
+    "romaji": "imi",
+    "meaning": "අර්ථය",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "れいぶん",
+    "romaji": "reibun",
+    "meaning": "උදාහරණ වාක්‍යය",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "しゅくだい",
+    "romaji": "shukudai",
+    "meaning": "ගෙදර වැඩ",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "しつもん",
+    "romaji": "shitsumon",
+    "meaning": "ප්‍රශ්නය",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "こたえ",
+    "romaji": "kotae",
+    "meaning": "පිළිතුර",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "テスト",
+    "romaji": "tesuto",
+    "meaning": "පරීක්ෂණය",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "じしょ",
+    "romaji": "jisho",
+    "meaning": "ශබ්දකෝෂය",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "ノート",
+    "romaji": "nooto",
+    "meaning": "notebook",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "かんじ",
+    "romaji": "kanji",
+    "meaning": "කන්ජි",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "はつおん",
+    "romaji": "hatsuon",
+    "meaning": "උච්චාරණය",
+    "category": "භාෂාව",
+    "section": "1. භාෂාව, අක්ෂර සහ ඉගෙනීම",
+    "sectionId": "vocab-1"
+  },
+  {
+    "japanese": "おはようございます",
+    "romaji": "ohayou gozaimasu",
+    "meaning": "සුභ උදෑසන",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "おはよう",
+    "romaji": "ohayou",
+    "meaning": "සුභ උදෑසන (casual)",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "こんにちは",
+    "romaji": "konnichiwa",
+    "meaning": "සුභ දවසක් / ආයුබෝවන්",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "こんばんは",
+    "romaji": "konbanwa",
+    "meaning": "සුභ සැන්දෑවක්",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "ありがとうございます",
+    "romaji": "arigatou gozaimasu",
+    "meaning": "බොහෝම ස්තූතියි",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "ありがとう",
+    "romaji": "arigatou",
+    "meaning": "ස්තූතියි",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "すみません",
+    "romaji": "sumimasen",
+    "meaning": "සමාවෙන්න / excuse me",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "はじめまして",
+    "romaji": "hajimemashite",
+    "meaning": "ඔබව මුල්වරට හමුවීම සතුටක්",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "よろしく おねがいします",
+    "romaji": "yoroshiku onegaishimasu",
+    "meaning": "ඔබගේ සහයෝගය බලාපොරොත්තු වෙමි",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "もしもし",
+    "romaji": "moshi moshi",
+    "meaning": "හෙලෝ (දුරකථනයේදී)",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "はい",
+    "romaji": "hai",
+    "meaning": "ඔව්",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "いいえ",
+    "romaji": "iie",
+    "meaning": "නැහැ",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "そうです",
+    "romaji": "sou desu",
+    "meaning": "එසේය",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "そうですか",
+    "romaji": "sou desu ka",
+    "meaning": "එහෙමද?",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "わかりました",
+    "romaji": "wakarimashita",
+    "meaning": "තේරුණා / හරි",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "ちょっと",
+    "romaji": "chotto",
+    "meaning": "ටිකක් / a little",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "おやすみなさい",
+    "romaji": "oyasuminasai",
+    "meaning": "සුභ රාත්‍රියක්",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "おやすみ",
+    "romaji": "oyasumi",
+    "meaning": "සුභ රාත්‍රියක් (casual)",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "さようなら",
+    "romaji": "sayounara",
+    "meaning": "සමුගන්නම්",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "またあした",
+    "romaji": "mata ashita",
+    "meaning": "හෙට නැවත හමුවෙමු",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "またね",
+    "romaji": "mata ne",
+    "meaning": "පස්සේ හමුවෙමු",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "じゃあ また",
+    "romaji": "jaa mata",
+    "meaning": "එහෙනම් නැවත හමුවෙමු",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "おつかれさまです",
+    "romaji": "otsukaresama desu",
+    "meaning": "ඔබ මහන්සි වුණා",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "しつれいします",
+    "romaji": "shitsurei shimasu",
+    "meaning": "සමාවෙන්න / මම යනවා",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "だいじょうぶです",
+    "romaji": "daijoubu desu",
+    "meaning": "හරි / ප්‍රශ්නයක් නැහැ",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "だめです",
+    "romaji": "dame desu",
+    "meaning": "හරි නැහැ / නොකළ යුතුයි",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "もちろん",
+    "romaji": "mochiron",
+    "meaning": "ඇත්තෙන්ම / of course",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "ほんとうに",
+    "romaji": "hontou ni",
+    "meaning": "ඇත්තටම",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "たぶん",
+    "romaji": "tabun",
+    "meaning": "සමහරවිට",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "ぜひ",
+    "romaji": "zehi",
+    "meaning": "අනිවාර්යයෙන් / definitely",
+    "category": "ආචාර",
+    "section": "2. ආචාර, සුභපැතුම් සහ දෛනික ප්‍රකාශ",
+    "sectionId": "vocab-2"
+  },
+  {
+    "japanese": "わたし",
+    "romaji": "watashi",
+    "meaning": "මම",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "あなた",
+    "romaji": "anata",
+    "meaning": "ඔබ",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "かれ",
+    "romaji": "kare",
+    "meaning": "ඔහු",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "おなまえ",
+    "romaji": "onamae",
+    "meaning": "නම",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "なまえ",
+    "romaji": "namae",
+    "meaning": "නම",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "なん",
+    "romaji": "nan",
+    "meaning": "මොකක්ද / what",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "です",
+    "romaji": "desu",
+    "meaning": "වේ / වෙමි",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "ですか",
+    "romaji": "desu ka",
+    "meaning": "ද? / question form",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "がくせい",
+    "romaji": "gakusei",
+    "meaning": "ශිෂ්‍යයා",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "せんせい",
+    "romaji": "sensei",
+    "meaning": "ගුරුවරයා / teacher",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "かいしゃいん",
+    "romaji": "kaishain",
+    "meaning": "සමාගම් සේවකයා",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "スリランカ",
+    "romaji": "Suriranka",
+    "meaning": "ශ්‍රී ලංකාව",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "にほん",
+    "romaji": "Nihon",
+    "meaning": "ජපානය",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "から",
+    "romaji": "kara",
+    "meaning": "සිට / from",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "きました",
+    "romaji": "kimashita",
+    "meaning": "ආවා",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "ひと",
+    "romaji": "hito",
+    "meaning": "මනුස්සයා / පුද්ගලයා",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "ともだち",
+    "romaji": "tomodachi",
+    "meaning": "යාළුවා",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "かぞく",
+    "romaji": "kazoku",
+    "meaning": "පවුල",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "ちち",
+    "romaji": "chichi",
+    "meaning": "තාත්තා (තමාගේ)",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "はは",
+    "romaji": "haha",
+    "meaning": "අම්මා (තමාගේ)",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "あに",
+    "romaji": "ani",
+    "meaning": "වැඩිමහල් අයියා",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "あね",
+    "romaji": "ane",
+    "meaning": "වැඩිමහල් අක්කා",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "おとうと",
+    "romaji": "otouto",
+    "meaning": "බාල සහෝදරයා",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "いもうと",
+    "romaji": "imouto",
+    "meaning": "බාල සහෝදරිය",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "おとうさん",
+    "romaji": "otousan",
+    "meaning": "තාත්තා",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "おかあさん",
+    "romaji": "okaasan",
+    "meaning": "අම්මා",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "おにいさん",
+    "romaji": "oniisan",
+    "meaning": "අයියා",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "おねえさん",
+    "romaji": "oneesan",
+    "meaning": "අක්කා",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "こども",
+    "romaji": "kodomo",
+    "meaning": "දරුවා",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "おとこ",
+    "romaji": "otoko",
+    "meaning": "පිරිමි",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "おんな",
+    "romaji": "onna",
+    "meaning": "ගැහැණු",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "だれ",
+    "romaji": "dare",
+    "meaning": "කවුද",
+    "category": "පුද්ගලයන්",
+    "section": "3. පුද්ගලයන්, හඳුන්වාදීම සහ පවුල",
+    "sectionId": "vocab-3"
+  },
+  {
+    "japanese": "くに",
+    "romaji": "kuni",
+    "meaning": "රට",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "にほんじん",
+    "romaji": "nihonjin",
+    "meaning": "ජපන් ජාතිකයා",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "スリランカじん",
+    "romaji": "Surirankajin",
+    "meaning": "ශ්‍රී ලාංකිකයා",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "ちゅうごく",
+    "romaji": "Chuugoku",
+    "meaning": "චීනය",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "かんこく",
+    "romaji": "Kankoku",
+    "meaning": "කොරියාව",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "アメリカ",
+    "romaji": "Amerika",
+    "meaning": "ඇමරිකාව",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "イギリス",
+    "romaji": "Igirisu",
+    "meaning": "බ්‍රිතාන්‍ය",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "ネパール",
+    "romaji": "Nepaaru",
+    "meaning": "නේපාලය",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "インド",
+    "romaji": "Indo",
+    "meaning": "ඉන්දියාව",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "タイ",
+    "romaji": "Tai",
+    "meaning": "තායිලන්තය",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "フランス",
+    "romaji": "Furansu",
+    "meaning": "ප්‍රංශය",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "ドイツ",
+    "romaji": "Doitsu",
+    "meaning": "ජර්මනිය",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "スペイン",
+    "romaji": "Supein",
+    "meaning": "ස්පාඤ්ඤය",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "ベトナム",
+    "romaji": "Betonamu",
+    "meaning": "වියට්නාමය",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "フィリピン",
+    "romaji": "Firipin",
+    "meaning": "පිලිපීනය",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "がいこく",
+    "romaji": "gaikoku",
+    "meaning": "විදේශය",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "がいこくじん",
+    "romaji": "gaikokujin",
+    "meaning": "විදේශිකයා",
+    "category": "රටවල්",
+    "section": "4. රටවල්, භාෂා සහ ජාතිකත්වය",
+    "sectionId": "vocab-4"
+  },
+  {
+    "japanese": "がっこう",
+    "romaji": "gakkou",
+    "meaning": "පාසල",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "きょうしつ",
+    "romaji": "kyoushitsu",
+    "meaning": "පන්ති කාමරය",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "つくえ",
+    "romaji": "tsukue",
+    "meaning": "මේසය",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "いす",
+    "romaji": "isu",
+    "meaning": "පුටුව",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "ほん",
+    "romaji": "hon",
+    "meaning": "පොත",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "きょうかしょ",
+    "romaji": "kyoukasho",
+    "meaning": "පාඩම් පොත",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "ぺん",
+    "romaji": "pen",
+    "meaning": "පෑන",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "えんぴつ",
+    "romaji": "enpitsu",
+    "meaning": "පැන්සල",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "けしごむ",
+    "romaji": "keshigomu",
+    "meaning": "මකනය",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "かみ",
+    "romaji": "kami",
+    "meaning": "කඩදාසි",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "かばん",
+    "romaji": "kaban",
+    "meaning": "බෑගය",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "でんしじしょ",
+    "romaji": "denshi jisho",
+    "meaning": "electronic dictionary",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "こくばん",
+    "romaji": "kokuban",
+    "meaning": "කළු පුවරුව",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "じゅぎょう",
+    "romaji": "jugyou",
+    "meaning": "පාඩම / class",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "せき",
+    "romaji": "seki",
+    "meaning": "seat",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "しけん",
+    "romaji": "shiken",
+    "meaning": "විභාගය",
+    "category": "පාසල",
+    "section": "5. පන්තිය, පාසල සහ ඉගෙනුම් උපකරණ",
+    "sectionId": "vocab-5"
+  },
+  {
+    "japanese": "いえ",
+    "romaji": "ie",
+    "meaning": "ගෙදර / නිවස",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "へや",
+    "romaji": "heya",
+    "meaning": "කාමරය",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "ドア",
+    "romaji": "doa",
+    "meaning": "දොර",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "まど",
+    "romaji": "mado",
+    "meaning": "කවුළුව",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "ベッド",
+    "romaji": "beddo",
+    "meaning": "ඇඳ",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "でんき",
+    "romaji": "denki",
+    "meaning": "විදුලිය / light",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "れいぞうこ",
+    "romaji": "reizouko",
+    "meaning": "ශීතකරණය",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "せんたくき",
+    "romaji": "sentakuki",
+    "meaning": "රෙදි සෝදන යන්ත්‍රය",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "エアコン",
+    "romaji": "eakon",
+    "meaning": "air conditioner",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "シャワー",
+    "romaji": "shawaa",
+    "meaning": "shower",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "トイレ",
+    "romaji": "toire",
+    "meaning": "වැසිකිළිය",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "おふろ",
+    "romaji": "ofuro",
+    "meaning": "නාන කාමරය / bath",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "キッチン",
+    "romaji": "kicchin",
+    "meaning": "මුළුතැන්ගෙය",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "テーブル",
+    "romaji": "teeburu",
+    "meaning": "මේසය",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "ソファ",
+    "romaji": "sofa",
+    "meaning": "sofa",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "かぎ",
+    "romaji": "kagi",
+    "meaning": "යතුර",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "でんわ",
+    "romaji": "denwa",
+    "meaning": "දුරකථනය",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "スマホ",
+    "romaji": "sumaho",
+    "meaning": "smartphone",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "とけい",
+    "romaji": "tokei",
+    "meaning": "ඔරලෝසුව",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "テレビ",
+    "romaji": "terebi",
+    "meaning": "රූපවාහිනිය / TV",
+    "category": "නිවස",
+    "section": "6. නිවස, කාමරය සහ දෛනික භාණ්ඩ",
+    "sectionId": "vocab-6"
+  },
+  {
+    "japanese": "みず",
+    "romaji": "mizu",
+    "meaning": "වතුර",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "ごはん",
+    "romaji": "gohan",
+    "meaning": "බත් / කෑම",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "パン",
+    "romaji": "pan",
+    "meaning": "පාන්",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "コーヒー",
+    "romaji": "koohii",
+    "meaning": "කෝපි",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "すし",
+    "romaji": "sushi",
+    "meaning": "සුෂි",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "さかな",
+    "romaji": "sakana",
+    "meaning": "මාළු",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "たこ",
+    "romaji": "tako",
+    "meaning": "ඔක්ටෝපස්",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "おちゃ",
+    "romaji": "ocha",
+    "meaning": "තේ",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "ぎゅうにゅう",
+    "romaji": "gyuunyuu",
+    "meaning": "කිරි",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "ジュース",
+    "romaji": "juusu",
+    "meaning": "juice",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "たまご",
+    "romaji": "tamago",
+    "meaning": "බිත්තර",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "にく",
+    "romaji": "niku",
+    "meaning": "මස්",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "やさい",
+    "romaji": "yasai",
+    "meaning": "එළවළු",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "くだもの",
+    "romaji": "kudamono",
+    "meaning": "පලතුරු",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "りんご",
+    "romaji": "ringo",
+    "meaning": "ඇපල්",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "バナナ",
+    "romaji": "banana",
+    "meaning": "කෙසෙල්",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "みかん",
+    "romaji": "mikan",
+    "meaning": "orange",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "いちご",
+    "romaji": "ichigo",
+    "meaning": "ස්ට්‍රෝබෙරි",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "ラーメン",
+    "romaji": "raamen",
+    "meaning": "රාමෙන්",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "うどん",
+    "romaji": "udon",
+    "meaning": "උඩොන්",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "そば",
+    "romaji": "soba",
+    "meaning": "soba noodles",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "カレー",
+    "romaji": "karee",
+    "meaning": "කරි",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "おにぎり",
+    "romaji": "onigiri",
+    "meaning": "rice ball",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "さとう",
+    "romaji": "satou",
+    "meaning": "සීනි",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "しお",
+    "romaji": "shio",
+    "meaning": "ලුණු",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "しょうゆ",
+    "romaji": "shouyu",
+    "meaning": "soy sauce",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "あさごはん",
+    "romaji": "asagohan",
+    "meaning": "උදේ කෑම",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "ひるごはん",
+    "romaji": "hirugohan",
+    "meaning": "දවල් කෑම",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "ばんごはん",
+    "romaji": "bangohan",
+    "meaning": "රෑ කෑම",
+    "category": "ආහාර",
+    "section": "7. ආහාර සහ බීම",
+    "sectionId": "vocab-7"
+  },
+  {
+    "japanese": "ねこ",
+    "romaji": "neko",
+    "meaning": "පූසා",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "いぬ",
+    "romaji": "inu",
+    "meaning": "බල්ලා",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "とり",
+    "romaji": "tori",
+    "meaning": "කුරුල්ලා",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "うま",
+    "romaji": "uma",
+    "meaning": "අශ්වයා",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "やま",
+    "romaji": "yama",
+    "meaning": "කන්ද",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "はな",
+    "romaji": "hana",
+    "meaning": "මල",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "き",
+    "romaji": "ki",
+    "meaning": "ගස",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "みずうみ",
+    "romaji": "mizuumi",
+    "meaning": "වැව / lake",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "かわ",
+    "romaji": "kawa",
+    "meaning": "නදිය",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "うみ",
+    "romaji": "umi",
+    "meaning": "මුහුද",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "そら",
+    "romaji": "sora",
+    "meaning": "අහස",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "つき",
+    "romaji": "tsuki",
+    "meaning": "සඳ",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "たいよう",
+    "romaji": "taiyou",
+    "meaning": "හිරු",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "ほし",
+    "romaji": "hoshi",
+    "meaning": "තාරකාව",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "ゆき",
+    "romaji": "yuki",
+    "meaning": "හිම",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "あめ",
+    "romaji": "ame",
+    "meaning": "වැසි",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "かぜ",
+    "romaji": "kaze",
+    "meaning": "සුළඟ",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "くも",
+    "romaji": "kumo",
+    "meaning": "වලාකුළ",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "てんき",
+    "romaji": "tenki",
+    "meaning": "කාලගුණය",
+    "category": "ස්වභාවය",
+    "section": "8. සතුන්, ස්වභාවය සහ ලෝකය",
+    "sectionId": "vocab-8"
+  },
+  {
+    "japanese": "たべます",
+    "romaji": "tabemasu",
+    "meaning": "කනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "たべません",
+    "romaji": "tabemasen",
+    "meaning": "කන්නේ නැහැ",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "のみます",
+    "romaji": "nomimasu",
+    "meaning": "බොනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "のみません",
+    "romaji": "nomimasen",
+    "meaning": "බොන්නේ නැහැ",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "いきます",
+    "romaji": "ikimasu",
+    "meaning": "යනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "いきません",
+    "romaji": "ikimasen",
+    "meaning": "යන්නේ නැහැ",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "みます",
+    "romaji": "mimasu",
+    "meaning": "බලනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "みません",
+    "romaji": "mimasen",
+    "meaning": "බලන්නේ නැහැ",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "おきます",
+    "romaji": "okimasu",
+    "meaning": "නැගිටිනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "べんきょうします",
+    "romaji": "benkyou shimasu",
+    "meaning": "ඉගෙන ගන්නවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "よみます",
+    "romaji": "yomimasu",
+    "meaning": "කියවනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "きます",
+    "romaji": "kimasu",
+    "meaning": "එනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "かきます",
+    "romaji": "kakimasu",
+    "meaning": "ලියනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "はなします",
+    "romaji": "hanashimasu",
+    "meaning": "කතා කරනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "ききます",
+    "romaji": "kikimasu",
+    "meaning": "අහනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "ねます",
+    "romaji": "nemasu",
+    "meaning": "නිදා ගන්නවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "あいます",
+    "romaji": "aimasu",
+    "meaning": "හමුවෙනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "かえります",
+    "romaji": "kaerimasu",
+    "meaning": "ආපසු යනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "はたらきます",
+    "romaji": "hatarakimasu",
+    "meaning": "වැඩ කරනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "やすみます",
+    "romaji": "yasumimasu",
+    "meaning": "විවේක ගන්නවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "つかいます",
+    "romaji": "tsukaimasu",
+    "meaning": "භාවිතා කරනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "かいます",
+    "romaji": "kaimasu",
+    "meaning": "මිලදී ගන්නවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "うります",
+    "romaji": "urimasu",
+    "meaning": "විකුණනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "まちます",
+    "romaji": "machimasu",
+    "meaning": "බලා සිටිනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "とります",
+    "romaji": "torimasu",
+    "meaning": "ගන්නවා / take",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "わたします",
+    "romaji": "watashimasu",
+    "meaning": "දෙනවා / hand over",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "つくります",
+    "romaji": "tsukurimasu",
+    "meaning": "සාදනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "おしえます",
+    "romaji": "oshiemasu",
+    "meaning": "උගන්වනවා / කියාදෙනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "おぼえます",
+    "romaji": "oboemasu",
+    "meaning": "මතක තබා ගන්නවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "わすれます",
+    "romaji": "wasuremasu",
+    "meaning": "අමතක වෙනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "しります",
+    "romaji": "shirimasu",
+    "meaning": "දැන ගන්නවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "しっています",
+    "romaji": "shitteimasu",
+    "meaning": "දන්නවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "すみます",
+    "romaji": "sumimasu",
+    "meaning": "පදිංචි වෙනවා",
+    "category": "ක්‍රියාපද",
+    "section": "9. මූලික ක්‍රියාපද",
+    "sectionId": "vocab-9"
+  },
+  {
+    "japanese": "たべて",
+    "romaji": "tabete",
+    "meaning": "කා / කන්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "のんで",
+    "romaji": "nonde",
+    "meaning": "බී / බොන්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "いって",
+    "romaji": "itte",
+    "meaning": "ගොස් / යන්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "みて",
+    "romaji": "mite",
+    "meaning": "බලා / බලන්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "まって",
+    "romaji": "matte",
+    "meaning": "රැඳී සිටිමින් / රැඳී සිටින්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "たべてください",
+    "romaji": "tabete kudasai",
+    "meaning": "කරුණාකර කන්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "みてください",
+    "romaji": "mite kudasai",
+    "meaning": "කරුණාකර බලන්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "まってください",
+    "romaji": "matte kudasai",
+    "meaning": "කරුණාකර රැඳී සිටින්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "きいてください",
+    "romaji": "kiite kudasai",
+    "meaning": "කරුණාකර අහන්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "いってください",
+    "romaji": "itte kudasai",
+    "meaning": "කරුණාකර කියන්න / යන්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "よんでください",
+    "romaji": "yonde kudasai",
+    "meaning": "කරුණාකර කියවන්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "しずかにしてください",
+    "romaji": "shizuka ni shite kudasai",
+    "meaning": "කරුණාකර නිහඬව සිටින්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "てつだってください",
+    "romaji": "tetsudatte kudasai",
+    "meaning": "කරුණාකර උදව් කරන්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "おしえてください",
+    "romaji": "oshiete kudasai",
+    "meaning": "කරුණාකර කියාදෙන්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "はいってください",
+    "romaji": "haitte kudasai",
+    "meaning": "කරුණාකර ඇතුළට එන්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "すわってください",
+    "romaji": "suwatte kudasai",
+    "meaning": "කරුණාකර වාඩි වෙන්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "たってください",
+    "romaji": "tatte kudasai",
+    "meaning": "කරුණාකර නැගිටින්න",
+    "category": "て-form",
+    "section": "10. て Form සහ ඉල්ලීම්",
+    "sectionId": "vocab-10"
+  },
+  {
+    "japanese": "いきました",
+    "romaji": "ikimashita",
+    "meaning": "ගියා",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "のみました",
+    "romaji": "nomimashita",
+    "meaning": "බිව්වා",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "たべました",
+    "romaji": "tabemashita",
+    "meaning": "කෑවා",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "みました",
+    "romaji": "mimashita",
+    "meaning": "බැලුවා",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "きのう",
+    "romaji": "kinou",
+    "meaning": "ඊයේ",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "きょう",
+    "romaji": "kyou",
+    "meaning": "අද",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "あした",
+    "romaji": "ashita",
+    "meaning": "හෙට",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "おととい",
+    "romaji": "ototoi",
+    "meaning": "පෙරේදා",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "あさって",
+    "romaji": "asatte",
+    "meaning": "අනිද්දා",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "まいにち",
+    "romaji": "mainichi",
+    "meaning": "හැමදාම",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "まいあさ",
+    "romaji": "maiasa",
+    "meaning": "හැම උදෑසනම",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "まいばん",
+    "romaji": "maiban",
+    "meaning": "හැම රාත්‍රියකම",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "しゅうまつ",
+    "romaji": "shuumatsu",
+    "meaning": "සති අන්තය",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "いま",
+    "romaji": "ima",
+    "meaning": "දැන්",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "あとで",
+    "romaji": "ato de",
+    "meaning": "පසුව",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "さっき",
+    "romaji": "sakki",
+    "meaning": "ටිකකට කලින්",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "もう",
+    "romaji": "mou",
+    "meaning": "ඉවරයි / already",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "まだ",
+    "romaji": "mada",
+    "meaning": "තවම",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "とき",
+    "romaji": "toki",
+    "meaning": "වේලාව / when",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "じかん",
+    "romaji": "jikan",
+    "meaning": "කාලය / time",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "いちじ",
+    "romaji": "ichiji",
+    "meaning": "එකට",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "にじ",
+    "romaji": "niji",
+    "meaning": "දෙකට",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "さんじ",
+    "romaji": "sanji",
+    "meaning": "තුනට",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "よじ",
+    "romaji": "yoji",
+    "meaning": "හතරට",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "ごじ",
+    "romaji": "goji",
+    "meaning": "පහට",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "ろくじ",
+    "romaji": "rokuji",
+    "meaning": "හයට",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "しちじ",
+    "romaji": "shichiji",
+    "meaning": "හතට",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "はちじ",
+    "romaji": "hachiji",
+    "meaning": "අටට",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "くじ",
+    "romaji": "kuji",
+    "meaning": "නවයට",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "じゅうじ",
+    "romaji": "juuji",
+    "meaning": "දහයට",
+    "category": "කාලය",
+    "section": "11. අතීත කාලය සහ කාලය ආශ්‍රිත වචන",
+    "sectionId": "vocab-11"
+  },
+  {
+    "japanese": "げつようび",
+    "romaji": "getsuyoubi",
+    "meaning": "සඳුදා",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "かようび",
+    "romaji": "kayoubi",
+    "meaning": "අඟහරුවාදා",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "すいようび",
+    "romaji": "suiyoubi",
+    "meaning": "බදාදා",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "もくようび",
+    "romaji": "mokuyoubi",
+    "meaning": "බ්‍රහස්පතින්දා",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "きんようび",
+    "romaji": "kinyoubi",
+    "meaning": "සිකුරාදා",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "どようび",
+    "romaji": "doyoubi",
+    "meaning": "සෙනසුරාදා",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "にちようび",
+    "romaji": "nichiyoubi",
+    "meaning": "ඉරිදා",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "いちがつ",
+    "romaji": "ichigatsu",
+    "meaning": "ජනවාරි",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "にがつ",
+    "romaji": "nigatsu",
+    "meaning": "පෙබරවාරි",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "さんがつ",
+    "romaji": "sangatsu",
+    "meaning": "මාර්තු",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "しがつ",
+    "romaji": "shigatsu",
+    "meaning": "අප්‍රේල්",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "ごがつ",
+    "romaji": "gogatsu",
+    "meaning": "මැයි",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "ろくがつ",
+    "romaji": "rokugatsu",
+    "meaning": "ජූනි",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "しちがつ",
+    "romaji": "shichigatsu",
+    "meaning": "ජූලි",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "はちがつ",
+    "romaji": "hachigatsu",
+    "meaning": "අගෝස්තු",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "くがつ",
+    "romaji": "kugatsu",
+    "meaning": "සැප්තැම්බර්",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "じゅうがつ",
+    "romaji": "juugatsu",
+    "meaning": "ඔක්තෝබර්",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "じゅういちがつ",
+    "romaji": "juuichigatsu",
+    "meaning": "නොවැම්බර්",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "じゅうにがつ",
+    "romaji": "juunigatsu",
+    "meaning": "දෙසැම්බර්",
+    "category": "කාලය",
+    "section": "12. දින, සතිය සහ මාස",
+    "sectionId": "vocab-12"
+  },
+  {
+    "japanese": "たかい",
+    "romaji": "takai",
+    "meaning": "මිල අධික / උස",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "たかかったです",
+    "romaji": "takakatta desu",
+    "meaning": "මිල අධික විය",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "おおきい",
+    "romaji": "ookii",
+    "meaning": "ලොකු",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "おおきかったです",
+    "romaji": "ookikatta desu",
+    "meaning": "ලොකු විය",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "あつい",
+    "romaji": "atsui",
+    "meaning": "උණුසුම්",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "あつかったです",
+    "romaji": "atsukatta desu",
+    "meaning": "උණුසුම් විය",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "さむい",
+    "romaji": "samui",
+    "meaning": "සීතල",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "さむかったです",
+    "romaji": "samukatta desu",
+    "meaning": "සීතල විය",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "おもしろい",
+    "romaji": "omoshiroi",
+    "meaning": "රසවත්",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "おもしろかったです",
+    "romaji": "omoshirokatta desu",
+    "meaning": "රසවත් විය",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "しずか",
+    "romaji": "shizuka",
+    "meaning": "නිහඬ",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "しずかでした",
+    "romaji": "shizuka deshita",
+    "meaning": "නිහඬ විය",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "きれい",
+    "romaji": "kirei",
+    "meaning": "ලස්සන / පිරිසිදු",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "きれいでした",
+    "romaji": "kirei deshita",
+    "meaning": "ලස්සන / පිරිසිදු විය",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "ゆうめい",
+    "romaji": "yuumei",
+    "meaning": "ප්‍රසිද්ධ",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "ゆうめいでした",
+    "romaji": "yuumei deshita",
+    "meaning": "ප්‍රසිද්ධ විය",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "あたらしい",
+    "romaji": "atarashii",
+    "meaning": "අලුත්",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "ふるい",
+    "romaji": "furui",
+    "meaning": "පරණ",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "はやい",
+    "romaji": "hayai",
+    "meaning": "ඉක්මන්",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "おそい",
+    "romaji": "osoi",
+    "meaning": "මන්දගාමී",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "やさしい",
+    "romaji": "yasashii",
+    "meaning": "මෘදු / kind",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "むずかしい",
+    "romaji": "muzukashii",
+    "meaning": "අමාරු",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "かんたん",
+    "romaji": "kantan",
+    "meaning": "පහසු",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "いそがしい",
+    "romaji": "isogashii",
+    "meaning": "කාර්යබහුල",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "ひま",
+    "romaji": "hima",
+    "meaning": "වෙලාව තිබෙන / free",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "たのしい",
+    "romaji": "tanoshii",
+    "meaning": "විනෝදජනක",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "こわい",
+    "romaji": "kowai",
+    "meaning": "බය හිතෙන",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "うれしい",
+    "romaji": "ureshii",
+    "meaning": "සතුටුයි",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "かなしい",
+    "romaji": "kanashii",
+    "meaning": "දුකයි",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "あぶない",
+    "romaji": "abunai",
+    "meaning": "භයානක",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "あんぜん",
+    "romaji": "anzen",
+    "meaning": "ආරක්ෂිත",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "べんり",
+    "romaji": "benri",
+    "meaning": "පහසු / convenient",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "ふべん",
+    "romaji": "fuben",
+    "meaning": "අපහසු / inconvenient",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "たいせつ",
+    "romaji": "taisetsu",
+    "meaning": "වැදගත්",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "ひつよう",
+    "romaji": "hitsuyou",
+    "meaning": "අවශ්‍ය",
+    "category": "විශේෂණ",
+    "section": "13. විශේෂණ සහ විස්තර කරන වචන",
+    "sectionId": "vocab-13"
+  },
+  {
+    "japanese": "できます",
+    "romaji": "dekimasu",
+    "meaning": "පුළුවන් / කළ හැක",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "にほんごが できます",
+    "romaji": "nihongo ga dekimasu",
+    "meaning": "මට ජපන් භාෂාව පුළුවන්",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "えいごが できます",
+    "romaji": "eigo ga dekimasu",
+    "meaning": "මට ඉංග්‍රීසි පුළුවන්",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "りょうりが できます",
+    "romaji": "ryouri ga dekimasu",
+    "meaning": "මට කෑම හදන්න පුළුවන්",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "すき",
+    "romaji": "suki",
+    "meaning": "කැමතියි",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "きらい",
+    "romaji": "kirai",
+    "meaning": "අකමැතියි",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "すきです",
+    "romaji": "suki desu",
+    "meaning": "කැමතියි",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "きらいです",
+    "romaji": "kirai desu",
+    "meaning": "අකමැතියි",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "サッカー",
+    "romaji": "sakkaa",
+    "meaning": "පාපන්දු",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "ほしいです",
+    "romaji": "hoshii desu",
+    "meaning": "මට ඕනේ",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "いきたいです",
+    "romaji": "ikitai desu",
+    "meaning": "යන්න ඕනේ",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "たべたいです",
+    "romaji": "tabetai desu",
+    "meaning": "කන්න ඕනේ",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "のみたいです",
+    "romaji": "nomitai desu",
+    "meaning": "බොන්න ඕනේ",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "あいたいです",
+    "romaji": "aitai desu",
+    "meaning": "හමුවෙන්න ඕනේ",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "つかれました",
+    "romaji": "tsukaremashita",
+    "meaning": "මහන්සියි",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "おなかが すきました",
+    "romaji": "onaka ga sukimashita",
+    "meaning": "බඩගිනියි",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "のどが かわきました",
+    "romaji": "nodo ga kawakimashita",
+    "meaning": "දියාරුවයි / thirsty",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "ねむいです",
+    "romaji": "nemui desu",
+    "meaning": "නිදිමතයි",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "うれしいです",
+    "romaji": "ureshii desu",
+    "meaning": "සතුටුයි",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "しんぱいです",
+    "romaji": "shinpai desu",
+    "meaning": "කණගාටුයි / worried",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "だいすきです",
+    "romaji": "daisuki desu",
+    "meaning": "ගොඩක් කැමතියි",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "だいきらいです",
+    "romaji": "daikirai desu",
+    "meaning": "බොහෝ අකමැතියි",
+    "category": "හැඟීම්",
+    "section": "14. හැඟීම්, අදහස් සහ අවශ්‍යතා",
+    "sectionId": "vocab-14"
+  },
+  {
+    "japanese": "は",
+    "romaji": "wa",
+    "meaning": "වාක්‍යයේ ප්‍රධාන දේ පෙන්වයි",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "が",
+    "romaji": "ga",
+    "meaning": "විෂයය / subject marker",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "を",
+    "romaji": "o / wo",
+    "meaning": "කර්මය පෙන්වයි",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "に",
+    "romaji": "ni",
+    "meaning": "දිශාව / කාලය / ගමනාන්තය",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "で",
+    "romaji": "de",
+    "meaning": "ක්‍රියාව සිදුවන ස්ථානය",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "も",
+    "romaji": "mo",
+    "meaning": "ද / also",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "の",
+    "romaji": "no",
+    "meaning": "අයිතිය / of",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "まで",
+    "romaji": "made",
+    "meaning": "දක්වා / until",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "から",
+    "romaji": "kara",
+    "meaning": "සිට / from",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "へ",
+    "romaji": "e",
+    "meaning": "වෙත / toward",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "と",
+    "romaji": "to",
+    "meaning": "සමඟ / and",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "や",
+    "romaji": "ya",
+    "meaning": "... වගේ / and such",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "ね",
+    "romaji": "ne",
+    "meaning": "නේද / right?",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "よ",
+    "romaji": "yo",
+    "meaning": "තදින් පවසන emphasis",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "か",
+    "romaji": "ka",
+    "meaning": "ප්‍රශ්න සලකුණ / question marker",
+    "category": "particles",
+    "section": "15. පාර්ටික්ල්ස් සහ වාක්‍ය ගොඩනැගීම",
+    "sectionId": "vocab-15"
+  },
+  {
+    "japanese": "これを ください",
+    "romaji": "kore o kudasai",
+    "meaning": "මේක දෙන්න",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "げんきですか",
+    "romaji": "genki desu ka",
+    "meaning": "හොඳින්ද?",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "げんきです",
+    "romaji": "genki desu",
+    "meaning": "හොඳින්",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "これは ほんです",
+    "romaji": "kore wa hon desu",
+    "meaning": "මෙය පොතකි",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "これは ほんですか",
+    "romaji": "kore wa hon desu ka",
+    "meaning": "මෙය පොතක්ද?",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "だれ",
+    "romaji": "dare",
+    "meaning": "කවුද",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "どこ",
+    "romaji": "doko",
+    "meaning": "කොහෙද",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "どう",
+    "romaji": "dou",
+    "meaning": "කොහොමද",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "なに",
+    "romaji": "nani",
+    "meaning": "මොකක්ද",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "なんですか",
+    "romaji": "nan desu ka",
+    "meaning": "මොකක්ද?",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "いつ",
+    "romaji": "itsu",
+    "meaning": "කවදාද",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "なぜ",
+    "romaji": "naze",
+    "meaning": "ඇයි",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "どうして",
+    "romaji": "doushite",
+    "meaning": "ඇයි / why",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "どれ",
+    "romaji": "dore",
+    "meaning": "කුමක්ද / which one",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "どの",
+    "romaji": "dono",
+    "meaning": "කුමන",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "どんな",
+    "romaji": "donna",
+    "meaning": "කෙසේ වර්ගයේ",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "いくら",
+    "romaji": "ikura",
+    "meaning": "කීයද / how much",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "いくつ",
+    "romaji": "ikutsu",
+    "meaning": "කීයක්ද / how many",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "どちら",
+    "romaji": "dochira",
+    "meaning": "කුමන පැත්ත / which way",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "どなた",
+    "romaji": "donata",
+    "meaning": "කවුද (polite)",
+    "category": "ප්‍රශ්න",
+    "section": "16. ප්‍රයෝජනවත් ප්‍රශ්න වචන",
+    "sectionId": "vocab-16"
+  },
+  {
+    "japanese": "いち",
+    "romaji": "ichi",
+    "meaning": "එක",
+    "category": "සංඛ්‍යා",
+    "section": "17. සංඛ්‍යා",
+    "sectionId": "vocab-17"
+  },
+  {
+    "japanese": "に",
+    "romaji": "ni",
+    "meaning": "දෙක",
+    "category": "සංඛ්‍යා",
+    "section": "17. සංඛ්‍යා",
+    "sectionId": "vocab-17"
+  },
+  {
+    "japanese": "さん",
+    "romaji": "san",
+    "meaning": "තුන",
+    "category": "සංඛ්‍යා",
+    "section": "17. සංඛ්‍යා",
+    "sectionId": "vocab-17"
+  },
+  {
+    "japanese": "よん",
+    "romaji": "yon",
+    "meaning": "හතර",
+    "category": "සංඛ්‍යා",
+    "section": "17. සංඛ්‍යා",
+    "sectionId": "vocab-17"
+  },
+  {
+    "japanese": "ご",
+    "romaji": "go",
+    "meaning": "පහ",
+    "category": "සංඛ්‍යා",
+    "section": "17. සංඛ්‍යා",
+    "sectionId": "vocab-17"
+  },
+  {
+    "japanese": "ろく",
+    "romaji": "roku",
+    "meaning": "හය",
+    "category": "සංඛ්‍යා",
+    "section": "17. සංඛ්‍යා",
+    "sectionId": "vocab-17"
+  },
+  {
+    "japanese": "なな",
+    "romaji": "nana",
+    "meaning": "හත",
+    "category": "සංඛ්‍යා",
+    "section": "17. සංඛ්‍යා",
+    "sectionId": "vocab-17"
+  },
+  {
+    "japanese": "はち",
+    "romaji": "hachi",
+    "meaning": "අට",
+    "category": "සංඛ්‍යා",
+    "section": "17. සංඛ්‍යා",
+    "sectionId": "vocab-17"
+  },
+  {
+    "japanese": "きゅう",
+    "romaji": "kyuu",
+    "meaning": "නවය",
+    "category": "සංඛ්‍යා",
+    "section": "17. සංඛ්‍යා",
+    "sectionId": "vocab-17"
+  },
+  {
+    "japanese": "じゅう",
+    "romaji": "juu",
+    "meaning": "දහය",
+    "category": "සංඛ්‍යා",
+    "section": "17. සංඛ්‍යා",
+    "sectionId": "vocab-17"
+  },
+  {
+    "japanese": "ひゃく",
+    "romaji": "hyaku",
+    "meaning": "සියය",
+    "category": "සංඛ්‍යා",
+    "section": "17. සංඛ්‍යා",
+    "sectionId": "vocab-17"
+  },
+  {
+    "japanese": "せん",
+    "romaji": "sen",
+    "meaning": "දහස",
+    "category": "සංඛ්‍යා",
+    "section": "17. සංඛ්‍යා",
+    "sectionId": "vocab-17"
+  },
+  {
+    "japanese": "まん",
+    "romaji": "man",
+    "meaning": "දසදහස",
+    "category": "සංඛ්‍යා",
+    "section": "17. සංඛ්‍යා",
+    "sectionId": "vocab-17"
+  },
+  {
+    "japanese": "あか",
+    "romaji": "aka",
+    "meaning": "රතු",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "あお",
+    "romaji": "ao",
+    "meaning": "නිල්",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "しろ",
+    "romaji": "shiro",
+    "meaning": "සුදු",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "くろ",
+    "romaji": "kuro",
+    "meaning": "කළු",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "きいろ",
+    "romaji": "kiiro",
+    "meaning": "කහ",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "みどり",
+    "romaji": "midori",
+    "meaning": "කොළ",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "ピンク",
+    "romaji": "pinku",
+    "meaning": "pink",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "ちゃいろ",
+    "romaji": "chairo",
+    "meaning": "තැඹිලි-බුරු",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "むらさき",
+    "romaji": "murasaki",
+    "meaning": "දම්",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "オレンジ",
+    "romaji": "orenji",
+    "meaning": "orange",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "まる",
+    "romaji": "maru",
+    "meaning": "වටය",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "しかく",
+    "romaji": "shikaku",
+    "meaning": "චතුරස්‍රය",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "さんかく",
+    "romaji": "sankaku",
+    "meaning": "ත්‍රිකෝණය",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "ながい",
+    "romaji": "nagai",
+    "meaning": "දිග",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "みじかい",
+    "romaji": "mijikai",
+    "meaning": "කෙටි",
+    "category": "වර්ණ",
+    "section": "18. වර්ණ සහ හැඩ",
+    "sectionId": "vocab-18"
+  },
+  {
+    "japanese": "からだ",
+    "romaji": "karada",
+    "meaning": "ශරීරය",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "あたま",
+    "romaji": "atama",
+    "meaning": "හිස",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "め",
+    "romaji": "me",
+    "meaning": "ඇස",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "みみ",
+    "romaji": "mimi",
+    "meaning": "කන",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "くち",
+    "romaji": "kuchi",
+    "meaning": "කට",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "て",
+    "romaji": "te",
+    "meaning": "අත",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "あし",
+    "romaji": "ashi",
+    "meaning": "කකුල",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "のど",
+    "romaji": "nodo",
+    "meaning": "උගුර",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "おなか",
+    "romaji": "onaka",
+    "meaning": "බඩ",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "せ",
+    "romaji": "se",
+    "meaning": "පිට",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "びょうき",
+    "romaji": "byouki",
+    "meaning": "අසනීපය",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "いたい",
+    "romaji": "itai",
+    "meaning": "රිදෙනවා",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "くすり",
+    "romaji": "kusuri",
+    "meaning": "බෙහෙත",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "びょういん",
+    "romaji": "byouin",
+    "meaning": "රෝහල",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "いしゃ",
+    "romaji": "isha",
+    "meaning": "වෛද්‍යවරයා",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "けが",
+    "romaji": "kega",
+    "meaning": "තුවාලය",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "ねつ",
+    "romaji": "netsu",
+    "meaning": "උණ",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "せき",
+    "romaji": "seki",
+    "meaning": "කැස්ස",
+    "category": "සෞඛ්‍යය",
+    "section": "19. ශරීර කොටස් සහ සෞඛ්‍යය",
+    "sectionId": "vocab-19"
+  },
+  {
+    "japanese": "えき",
+    "romaji": "eki",
+    "meaning": "දුම්රිය ස්ථානය",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "でんしゃ",
+    "romaji": "densha",
+    "meaning": "දුම්රිය",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "バス",
+    "romaji": "basu",
+    "meaning": "බස් රථය",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "じてんしゃ",
+    "romaji": "jitensha",
+    "meaning": "බයිසිකලය",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "くるま",
+    "romaji": "kuruma",
+    "meaning": "මෝටර් රථය",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "タクシー",
+    "romaji": "takushii",
+    "meaning": "ටැක්සි",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "みち",
+    "romaji": "michi",
+    "meaning": "පාර",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "こうさてん",
+    "romaji": "kousaten",
+    "meaning": "හන්දිය",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "しんごう",
+    "romaji": "shingou",
+    "meaning": "traffic light",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "みぎ",
+    "romaji": "migi",
+    "meaning": "දකුණ",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "ひだり",
+    "romaji": "hidari",
+    "meaning": "වම",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "まっすぐ",
+    "romaji": "massugu",
+    "meaning": "සරලව",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "ちかてつ",
+    "romaji": "chikatetsu",
+    "meaning": "subway",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "くうこう",
+    "romaji": "kuukou",
+    "meaning": "ගුවන් තොටුපළ",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "まち",
+    "romaji": "machi",
+    "meaning": "නගරය",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "ぎんこう",
+    "romaji": "ginkou",
+    "meaning": "බැංකුව",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "ゆうびんきょく",
+    "romaji": "yuubinkyoku",
+    "meaning": "තැපැල් කාර්යාලය",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "スーパー",
+    "romaji": "suupaa",
+    "meaning": "supermarket",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "コンビニ",
+    "romaji": "konbini",
+    "meaning": "convenience store",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "レストラン",
+    "romaji": "resutoran",
+    "meaning": "restaurant",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "こうえん",
+    "romaji": "kouen",
+    "meaning": "උද්‍යානය",
+    "category": "ගමනාගමනය",
+    "section": "20. ගමනාගමනය සහ නගරය",
+    "sectionId": "vocab-20"
+  },
+  {
+    "japanese": "かいます",
+    "romaji": "kaimasu",
+    "meaning": "මිලදී ගන්නවා",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "うります",
+    "romaji": "urimasu",
+    "meaning": "විකුණනවා",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "おかね",
+    "romaji": "okane",
+    "meaning": "මුදල්",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "えん",
+    "romaji": "en",
+    "meaning": "යෙන්",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "たかい",
+    "romaji": "takai",
+    "meaning": "මිල අධික / උස",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "やすい",
+    "romaji": "yasui",
+    "meaning": "ලාභයි",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "いくら",
+    "romaji": "ikura",
+    "meaning": "කීයද / how much",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "みせ",
+    "romaji": "mise",
+    "meaning": "සාප්පුව",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "かいもの",
+    "romaji": "kaimono",
+    "meaning": "shopping",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "カード",
+    "romaji": "kaado",
+    "meaning": "card",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "げんきん",
+    "romaji": "genkin",
+    "meaning": "cash",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "レシート",
+    "romaji": "reshiito",
+    "meaning": "receipt",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "ふく",
+    "romaji": "fuku",
+    "meaning": "ඇඳුම්",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "くつ",
+    "romaji": "kutsu",
+    "meaning": "සපත්තු",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "かさ",
+    "romaji": "kasa",
+    "meaning": "කුඩය",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "ぼうし",
+    "romaji": "boushi",
+    "meaning": "තොප්පිය",
+    "category": "සාප්පු",
+    "section": "21. සාප්පු සවාරි සහ මුදල්",
+    "sectionId": "vocab-21"
+  },
+  {
+    "japanese": "しごと",
+    "romaji": "shigoto",
+    "meaning": "වැඩ / රැකියාව",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "はたらきます",
+    "romaji": "hatarakimasu",
+    "meaning": "වැඩ කරනවා",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "かいしゃ",
+    "romaji": "kaisha",
+    "meaning": "සමාගම",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "じむしょ",
+    "romaji": "jimusho",
+    "meaning": "කාර්යාලය",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "しゃいん",
+    "romaji": "shain",
+    "meaning": "සේවකයා",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "しゃちょう",
+    "romaji": "shachou",
+    "meaning": "සමාගම් ප්‍රධානියා",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "ぶちょう",
+    "romaji": "buchou",
+    "meaning": "department manager",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "てんちょう",
+    "romaji": "tenchou",
+    "meaning": "shop manager",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "どうりょう",
+    "romaji": "douryou",
+    "meaning": "සහකාර සේවකයා",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "アルバイト",
+    "romaji": "arubaito",
+    "meaning": "part-time job",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "きゅうりょう",
+    "romaji": "kyuuryou",
+    "meaning": "වැටුප",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "やすみ",
+    "romaji": "yasumi",
+    "meaning": "නිවාඩුව",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "しふと",
+    "romaji": "shifuto",
+    "meaning": "shift",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "ざんぎょう",
+    "romaji": "zangyou",
+    "meaning": "overtime",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "めんせつ",
+    "romaji": "mensetsu",
+    "meaning": "සම්මුඛ පරීක්ෂණය",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "りれきしょ",
+    "romaji": "rirekisho",
+    "meaning": "CV / resume",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  },
+  {
+    "japanese": "たいしゃ",
+    "romaji": "taisha",
+    "meaning": "රැකියාවෙන් ඉවත්වීම",
+    "category": "රැකියාව",
+    "section": "22. රැකියාව සහ කාර්යාලය",
+    "sectionId": "vocab-22"
+  }
+];
+
+if (typeof window !== "undefined") {
+  window.vocabulary = vocabulary;
+}

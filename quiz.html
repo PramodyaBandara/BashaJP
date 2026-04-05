@@ -8,62 +8,76 @@
 </head>
 <body>
 
-    <nav class="nav">
+  <nav class="nav">
     <div class="container nav-inner">
-        <a class="brand" href="index.html">
+      <a class="brand" href="index.html">
         <span class="brand-flag"></span>ජපන් කථන පාඨමාලාව
-        </a>
-        <div class="nav-links">
+      </a>
+      <div class="nav-links">
         <a href="index.html">HOME</a>
         <a href="vocabulary.html">VOCABULARY</a>
         <a href="quiz.html">QUIZ</a>
         <a href="contact.html">CONTACT</a>
-        </div>
+      </div>
     </div>
-    </nav>
+  </nav>
 
-    <section class="page-hero">
+  <section class="page-hero">
     <div class="container">
-        <h1>ජපන් වචන ප්‍රශ්නාවලිය</h1>
-        <div class="tag-row">
+      <h1>ජපන් වචන ප්‍රශ්නාවලිය</h1>
+      <div class="tag-row">
         <span class="tag">Mini Quiz</span>
         <span class="tag">Multiple Choice</span>
         <span class="tag">Beginner Friendly</span>
-        </div>
+      </div>
     </div>
-    </section>
+  </section>
 
-    <section>
+  <section>
     <div class="container content-grid">
 
-        <div class="lesson-box">
+      <div class="lesson-box">
         <h2>මෙම Quiz පිටුව ගැන</h2>
         <p>
-            මෙම පිටුවෙන් ඔබට ජපන් වචන අර්ථ මතක තබා ගැනීමට කුඩා ප්‍රශ්නාවලියක් කරගෙන යා හැක.
-            එක් වරකට ප්‍රශ්න 10ක් ලැබේ.
+          මෙම පිටුවෙන් ඔබට ජපන් වචන අර්ථ මතක තබා ගැනීමට කුඩා ප්‍රශ්නාවලියක් කරගෙන යා හැක.
+          තෝරාගත් category එක අනුව ප්‍රශ්න ලැබේ. එක් වරකට උපරිම ප්‍රශ්න 10ක් ලැබේ.
         </p>
         <ul>
-            <li>ජපන් වචනය බලන්න</li>
-            <li>නිවැරදි සිංහල අර්ථය තෝරන්න</li>
-            <li>අවසානයේ ඔබගේ ලකුණු බලන්න</li>
+          <li>Category එක තෝරන්න</li>
+          <li>ජපන් වචනය සහ romaji බලන්න</li>
+          <li>නිවැරදි සිංහල අර්ථය තෝරන්න</li>
+          <li>අවසානයේ ඔබගේ ලකුණු බලන්න</li>
         </ul>
-        </div>
+      </div>
 
-        <div class="lesson-box" id="quizStartBox">
+      <div class="lesson-box" id="quizStartBox">
         <h2>Quiz එක අරඹන්න</h2>
-        <p>පහත බොත්තම ඔබා quiz එක ආරම්භ කරන්න.</p>
-        <div class="actions">
-            <button class="btn btn-primary" id="startQuizBtn">Start Quiz</button>
-        </div>
+        <p>පහත category එක තෝරා quiz එක ආරම්භ කරන්න.</p>
+
+        <div class="vocab-tools" style="margin-top: 18px;">
+          <select id="categorySelect" class="vocab-filter">
+            <option value="all">All Categories</option>
+          </select>
         </div>
 
-        <div class="lesson-box hidden" id="quizBox">
+        <div id="quizInfoBox" class="study-tip" style="margin-top: 16px;">
+          All Categories සඳහා quiz එක අරඹන්න.
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-primary" id="startQuizBtn">Start Quiz</button>
+        </div>
+      </div>
+
+      <div class="lesson-box hidden" id="quizBox">
         <div class="tag-row" style="margin-bottom: 18px;">
-            <span class="tag">ප්‍රශ්නය <span id="questionNumber">1</span> / <span id="totalQuestions">10</span></span>
-            <span class="tag">ලකුණු: <span id="score">0</span></span>
+          <span class="tag">ප්‍රශ්නය <span id="questionNumber">1</span> / <span id="totalQuestions">10</span></span>
+          <span class="tag">ලකුණු: <span id="score">0</span></span>
+          <span class="tag" id="activeCategoryTag">All Categories</span>
         </div>
 
         <h2 id="questionText">Question</h2>
+        <p id="questionRomaji" class="muted"></p>
         <p class="muted">මෙම ජපන් වචනයේ නිවැරදි සිංහල අර්ථය තෝරන්න.</p>
 
         <div id="answerButtons" class="quiz-options"></div>
@@ -71,28 +85,29 @@
         <div id="quizFeedback" class="study-tip hidden" style="margin-top: 18px;"></div>
 
         <div class="actions" style="margin-top: 20px;">
-            <button class="btn btn-secondary hidden" id="nextQuestionBtn">Next Question</button>
+          <button class="btn btn-secondary hidden" id="nextQuestionBtn">Next Question</button>
         </div>
-        </div>
+      </div>
 
-        <div class="lesson-box hidden" id="resultBox">
+      <div class="lesson-box hidden" id="resultBox">
         <h2>Quiz එක අවසන්</h2>
         <p id="resultText"></p>
         <div class="actions">
-            <button class="btn btn-primary" id="restartQuizBtn">Restart Quiz</button>
+          <button class="btn btn-primary" id="restartQuizBtn">Restart Quiz</button>
         </div>
-        </div>
+      </div>
 
     </div>
-    </section>
+  </section>
 
-    <div class="footer">
-        <div class="container">
-            Quiz • ජපන් වචන ප්‍රශ්නාවලිය
-            <div class="copyright">© 2026 Pramod (BashaJP). All rights reserved.</div>
-        </div>
+  <div class="footer">
+    <div class="container">
+      Quiz • ජපන් වචන ප්‍රශ්නාවලිය
+      <div class="copyright">© 2026 Pramod (BashaJP). All rights reserved.</div>
     </div>
+  </div>
 
+  <script src="vocab-data.js"></script>
   <script src="quiz.js"></script>
 </body>
 </html>

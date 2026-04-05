@@ -1,31 +1,40 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const elements = document.querySelectorAll(".lesson-box, .lesson-link, .stat, .quick-links a");
+  let revealObserver = null;
 
-  elements.forEach((el) => {
-    el.classList.add("reveal");
-  });
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry, index) => {
-      if (entry.isIntersecting) {
-        setTimeout(() => {
-          entry.target.classList.add("active");
-        }, index * 40);
-      }
+  function setupRevealObserver() {
+    revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add("active");
+          }, index * 40);
+        }
+      });
+    }, {
+      threshold: 0.12
     });
-  }, {
-    threshold: 0.12
-  });
-
-  elements.forEach((el) => observer.observe(el));
-
-  const searchInput = document.getElementById("vocabSearch");
-  const categories = Array.from(document.querySelectorAll(".vocab-category"));
-  const noResults = document.getElementById("noResults");
-
-  if (!searchInput || categories.length === 0) {
-    return;
   }
+
+  function revealElements(elements) {
+    if (!revealObserver || !elements || elements.length === 0) {
+      return;
+    }
+
+    elements.forEach((el) => {
+      if (!el) return;
+      el.classList.add("reveal");
+      revealObserver.observe(el);
+    });
+  }
+
+  setupRevealObserver();
+
+  const initialRevealElements = document.querySelectorAll(".lesson-box, .lesson-link, .stat, .quick-links a");
+  revealElements(initialRevealElements);
+
+  const vocabularyContainer = document.getElementById("vocabularyContainer");
+  const searchInput = document.getElementById("vocabSearch");
+  const noResults = document.getElementById("noResults");
 
   function escapeRegExp(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -39,11 +48,11 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function highlightText(element, query) {
-    if (!query) return;
+    if (!query || !element) return;
 
     const regex = new RegExp("(" + escapeRegExp(query) + ")", "gi");
 
-    element.childNodes.forEach((node) => {
+    Array.from(element.childNodes).forEach((node) => {
       if (node.nodeType === 3) {
         const text = node.textContent;
         if (regex.test(text)) {
@@ -57,7 +66,114 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  function groupVocabularyBySection(vocabulary) {
+    const sections = [];
+
+    vocabulary.forEach((item) => {
+      const sectionId = item.sectionId || "";
+      const sectionTitle = item.section || "";
+      const category = item.category || "";
+
+      let existingSection = sections.find((section) => section.sectionId === sectionId);
+
+      if (!existingSection) {
+        existingSection = {
+          sectionId,
+          section: sectionTitle,
+          category,
+          words: []
+        };
+        sections.push(existingSection);
+      }
+
+      existingSection.words.push(item);
+    });
+
+    return sections;
+  }
+
+  function createVocabularySection(sectionData) {
+    const sectionBox = document.createElement("div");
+    sectionBox.className = "lesson-box vocab-category";
+    sectionBox.id = sectionData.sectionId;
+    sectionBox.setAttribute("data-category", sectionData.category || "");
+
+    const title = document.createElement("h2");
+    title.textContent = sectionData.section || "";
+
+    const count = document.createElement("span");
+    count.className = "vocab-count";
+    count.textContent = "පෙනෙන වචන: " + sectionData.words.length;
+
+    const table = document.createElement("table");
+    table.className = "table vocab-table";
+
+    const headerRow = document.createElement("tr");
+    headerRow.innerHTML = `
+      <th>ජපන් වචනය</th>
+      <th>රෝමාජි</th>
+      <th>සිංහල අර්ථය</th>
+    `;
+    table.appendChild(headerRow);
+
+    sectionData.words.forEach((word) => {
+      const row = document.createElement("tr");
+      row.innerHTML = `
+        <td>${word.japanese || ""}</td>
+        <td>${word.romaji || ""}</td>
+        <td>${word.meaning || ""}</td>
+      `;
+      table.appendChild(row);
+    });
+
+    sectionBox.appendChild(title);
+    sectionBox.appendChild(count);
+    sectionBox.appendChild(table);
+
+    return sectionBox;
+  }
+
+  function renderDynamicVocabulary() {
+    if (!vocabularyContainer) {
+      return;
+    }
+
+    if (!Array.isArray(window.vocabulary) || window.vocabulary.length === 0) {
+      vocabularyContainer.innerHTML = `
+        <div class="lesson-box">
+          <h2>Vocabulary data not found</h2>
+          <p class="muted">vocab-data.js file එක load වුණේ නැහැ හෝ වචන data හිස්ය.</p>
+        </div>
+      `;
+      revealElements(vocabularyContainer.querySelectorAll(".lesson-box"));
+      return;
+    }
+
+    const validVocabulary = window.vocabulary.filter((item) => {
+      return item && item.japanese && item.romaji && item.meaning;
+    });
+
+    const sections = groupVocabularyBySection(validVocabulary);
+    const fragment = document.createDocumentFragment();
+
+    sections.forEach((section) => {
+      fragment.appendChild(createVocabularySection(section));
+    });
+
+    vocabularyContainer.innerHTML = "";
+    vocabularyContainer.appendChild(fragment);
+
+    const dynamicRevealElements = vocabularyContainer.querySelectorAll(".lesson-box");
+    revealElements(dynamicRevealElements);
+  }
+
   function updateVocabulary() {
+    const categories = Array.from(document.querySelectorAll(".vocab-category"));
+
+    if (!searchInput || categories.length === 0 || !noResults) {
+      return;
+    }
+
     const query = searchInput.value.trim().toLowerCase();
     let visibleWords = 0;
 
@@ -74,6 +190,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (matchQuery) {
           categoryVisibleRows++;
+
           if (query) {
             Array.from(row.children).forEach((td) => highlightText(td, query));
           }
@@ -96,7 +213,10 @@ document.addEventListener("DOMContentLoaded", function () {
     noResults.style.display = visibleWords === 0 ? "block" : "none";
   }
 
-  searchInput.addEventListener("input", updateVocabulary);
+  renderDynamicVocabulary();
 
-  updateVocabulary();
+  if (searchInput && noResults) {
+    searchInput.addEventListener("input", updateVocabulary);
+    updateVocabulary();
+  }
 });
