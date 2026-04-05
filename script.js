@@ -20,14 +20,13 @@ document.addEventListener("DOMContentLoaded", function () {
   elements.forEach((el) => observer.observe(el));
 
   const searchInput = document.getElementById("vocabSearch");
-  const categoryFilter = document.getElementById("categoryFilter");
   const categories = Array.from(document.querySelectorAll(".vocab-category"));
   const noResults = document.getElementById("noResults");
   const totalCategoriesEl = document.getElementById("totalCategories");
   const visibleCategoriesEl = document.getElementById("visibleCategories");
   const visibleWordsEl = document.getElementById("visibleWords");
 
-  if (!searchInput || !categoryFilter || categories.length === 0) {
+  if (!searchInput || categories.length === 0) {
     return;
   }
 
@@ -63,14 +62,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function updateVocabulary() {
     const query = searchInput.value.trim().toLowerCase();
-    const selectedCategory = categoryFilter.value;
     let visibleCategories = 0;
     let visibleWords = 0;
 
     categories.forEach((categoryBox) => {
       removeHighlights(categoryBox);
 
-      const categoryName = categoryBox.dataset.category;
       const rows = Array.from(categoryBox.querySelectorAll(".vocab-table tr")).slice(1);
       let categoryVisibleRows = 0;
 
@@ -87,9 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
 
-      const matchCategory = selectedCategory === "all" || categoryName === selectedCategory;
-      const shouldShowCategory = matchCategory && categoryVisibleRows > 0;
-
+      const shouldShowCategory = categoryVisibleRows > 0;
       categoryBox.classList.toggle("hidden", !shouldShowCategory);
 
       const countEl = categoryBox.querySelector(".vocab-count");
@@ -110,7 +105,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   searchInput.addEventListener("input", updateVocabulary);
-  categoryFilter.addEventListener("change", updateVocabulary);
 
   updateVocabulary();
 });
