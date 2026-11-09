@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const count = document.createElement("span");
     count.className = "vocab-count";
-    count.textContent = "පෙනෙන වචන: " + sectionData.words.length;
+    count.textContent = "වචන ගණන: " + sectionData.words.length;
 
     const table = document.createElement("table");
     table.className = "table vocab-table";
@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const countEl = categoryBox.querySelector(".vocab-count");
       if (countEl) {
-        countEl.textContent = "පෙනෙන වචන: " + categoryVisibleRows;
+        countEl.textContent = "වචන ගණන: " + categoryVisibleRows;
       }
 
       if (shouldShowCategory) {
